@@ -1,0 +1,44 @@
+█DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 86812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=T6Bz9EdPDhkNZZTQ&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b&pass_ticket=6PjuE2YZmL%2BR%2BQbsNzXHAB%2B8MBUNX87arKFNmtGishtMeoLEksR5K4RUbIxg3hw9 HTTP/1.1" 200 6619
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webpush.wx2.qq.com
+DEBUG:wxpy.api.bot:new thread: _listen
+INFO:wxpy.api.bot:<Bot: Yune1>: started
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+INFO:wxpy.api.chats.group:updating <Group: 夏威夷飞机> (members_details=False)
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498389242 HTTP/1.1" 200 6459
+INFO:wxpy.api.chats.group:updating <Group: 豆瓣动车> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498389242 HTTP/1.1" 200 1411
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+活色生香嗨嗨嗨 › 很哇噻的男人💃 : 反正 (Text)
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+活色生香嗨嗨嗨 › 很哇噻的男人💃 : 你懂的，瞎聊 (Text)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389242&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389244&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389246&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389248&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389250&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389252&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498389254&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22194
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:__main__:new thread: heartbeat
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: new_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: exist_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: manually_added (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_other_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: wxpy_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_admins (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: welcome (Enabled, Async)>

@@ -27,7 +27,7 @@ from timed_list import TimedList
 console_qr = 1
 
 # 机器人昵称 (防止登错账号)
-bot_nick_name = 'manue1'
+bot_nick_name = 'Yune1'
 
 # 入群口令
 group_code = '嘿哈'
@@ -35,7 +35,7 @@ group_code = '嘿哈'
 # 管理员，可为多个，用于执行管理
 # 首个管理员为"系统管理员"，可接收异常日志和执行服务端操作
 # 其他管理员仅执行微信群管理
-admin_mangers_name = ['manue1','蝌蚪']
+admin_mangers_name = ['Yune1','泪','manue1']
 
 
 # 管理群
@@ -47,36 +47,37 @@ admin_group_name = '开发测试'
 # 需管理的微信群
 # 可为多个，机器人必须为群主，否则无法执行相应操作
 
-groups_name = ['测试2']
+groups_name = ['豆瓣动车组●﹏●','豆瓣动车组@_@','豆瓣动车组⊙_⊙']
 
 
 # 自动回答关键词
 kw_replies = {
-    'reply1': (
-        '福利', '书籍', '电影', '网站'
+    '发我10元红包+邮箱地址,每天全天十分钟一波车': (
+        '福利', '片','私家车','邮箱'
     ),
-    'reply2': (
-        '福利', '书籍', '电影', '网站'
+    '入群口令为:嘿哈': (
+        '口令', '暗号','豆瓣','发车','上车'
     ),
-#    '必看: 常见问题 FAQ:\nwxpy.readthedocs.io/faq.html': (
-#        'faq', '常见', '问题', '问答', '什么'
-#    ),
-#    '@fil@{}'.format(__file__): (
-#        '源码', '代码'
-#    )
 }
 
 # 新人入群的欢迎语
-welcome_text = '''🎉 欢迎 @{} 的加入！'''
+welcome_text = '''🎉 欢迎 @{} 的加入！'
+               新人讲一下你的故事
+               否则群员可投票把你踢
+               出奥.'''
 
 help_info = '''😃 讨论主题
-· 不限制其他话题，请区分优先级
+· 群内不限制聊天话题
 · 支持分享对群员有价值的信息
+· 需要全天福利的朋友，私信群主
+    暗号：私家车
+· 22点后,免费动车发车
 
 ⚠️ 注意事项
-· 除群主外，勿在群内使用机器人
-· 严禁灰产/黑产相关内容话题
-· 请勿发布对群员无价值的广告
+· 新成员入群，需讲述一个秘密
+    (自己/他人)
+· 秘密描述不得少于50字
+· 不说秘密者，可投票移出
 
 👮 投票移出
 · 移出后将被拉黑 24 小时
@@ -565,10 +566,10 @@ def wxpy_group(msg):
     kick_msg = remote_kick(msg)
     if kick_msg:
         return kick_msg
-    elif msg.text.lower().strip() in ('帮助', '说明', '规则', 'help', 'rule', 'rules'):
+    elif msg.text.lower().strip() in ('帮助', '说明','规矩','新人','公告', 'help', 'rule', 'rules'):
         return help_info
-    elif msg.is_at:
-        return 'oops…\n本群禁止使用机器人[撇嘴]\n想我就私聊呗[害羞]'
+    #elif msg.is_at:
+    #    return 'oops…\n本群禁止使用机器人[撇嘴]\n想我就私聊呗[害羞]'
 
 @bot.register((*admins, admin_group), msg_types=TEXT, except_self=False)
 def reply_admins(msg):
