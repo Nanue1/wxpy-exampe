@@ -3,26 +3,22 @@ DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
 DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 86812
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx2.qq.com
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=T6Bz9EdPDhkNZZTQ&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b&pass_ticket=6PjuE2YZmL%2BR%2BQbsNzXHAB%2B8MBUNX87arKFNmtGishtMeoLEksR5K4RUbIxg3hw9 HTTP/1.1" 200 2662
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=T6Bz9EdPDhkNZZTQ&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b&pass_ticket=6PjuE2YZmL%2BR%2BQbsNzXHAB%2B8MBUNX87arKFNmtGishtMeoLEksR5K4RUbIxg3hw9 HTTP/1.1" 200 370
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webpush.wx2.qq.com
 DEBUG:wxpy.api.bot:new thread: _listen
 INFO:wxpy.api.bot:<Bot: Yune1>: started
 INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
-DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
-↪ 豆瓣动车组●﹏● : (System)
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396016&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488830&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396018&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
-INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396020&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488832&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396022&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488835&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396024&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488837&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396026&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488839&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
-DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498396028&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 22788
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498488841&seq=0&skey=@crypt_ff49acb4_5c899b3e882d3501290ae85c3d391c5b HTTP/1.1" 200 23907
 DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
 DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
 DEBUG:__main__:new thread: heartbeat
@@ -33,123 +29,3 @@ INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_other_group (
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: wxpy_group (Enabled, Async)>
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_admins (Enabled, Async)>
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: welcome (Enabled, Async)>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 386, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 382, in _make_request
-    httplib_response = conn.getresponse()
-  File "/usr/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/usr/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.6/ssl.py", line 1002, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.6/ssl.py", line 865, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.6/ssl.py", line 625, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
-    timeout=timeout
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 649, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 357, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 308, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out. (read timeout=20)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/itchat/components/login.py", line 237, in maintain_loop
-    msgList, contactList = self.get_msg()
-  File "/usr/local/lib/python3.6/dist-packages/itchat/components/login.py", line 302, in get_msg
-    r = self.s.post(url, data=json.dumps(data), headers=headers)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 549, in post
-    return self.request('POST', url, data=data, json=json, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/wxpy/utils/misc.py", line 351, in customized_request
-    return requests.Session.request(session, method, url, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 502, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 612, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 516, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out. (read timeout=20)
-
-2017-06-25 21:24:24,035 itchat       ERROR    Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 386, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 2, in raise_from
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 382, in _make_request
-    httplib_response = conn.getresponse()
-  File "/usr/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/usr/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/lib/python3.6/http/client.py", line 258, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/usr/lib/python3.6/socket.py", line 586, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/lib/python3.6/ssl.py", line 1002, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/lib/python3.6/ssl.py", line 865, in read
-    return self._sslobj.read(len, buffer)
-  File "/usr/lib/python3.6/ssl.py", line 625, in read
-    v = self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
-    timeout=timeout
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 649, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 357, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 686, in reraise
-    raise value
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 388, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 308, in _raise_timeout
-    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out. (read timeout=20)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.6/dist-packages/itchat/components/login.py", line 237, in maintain_loop
-    msgList, contactList = self.get_msg()
-  File "/usr/local/lib/python3.6/dist-packages/itchat/components/login.py", line 302, in get_msg
-    r = self.s.post(url, data=json.dumps(data), headers=headers)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 549, in post
-    return self.request('POST', url, data=data, json=json, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/wxpy/utils/misc.py", line 351, in customized_request
-    return requests.Session.request(session, method, url, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 502, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 612, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 516, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out. (read timeout=20)
-
