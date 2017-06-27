@@ -9020,3 +9020,1018 @@ replied: "发我10元红包+邮箱地址,每天全天十分钟一波车"
 ↪ ⭕ : (System)
 2017-06-27 00:26:59,934 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
 ↪ Yune1 : (System)
+2017-06-27 00:34:07,718 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 00:34:07
+[uptime] 1:40:18
+[memory] 37.97 MB
+[messages] 141
+2017-06-27 00:44:08,243 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 00:44:08
+[uptime] 1:50:19
+[memory] 37.97 MB
+[messages] 142
+2017-06-27 00:54:08,771 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 00:54:08
+[uptime] 2:00:19
+[memory] 37.97 MB
+[messages] 143
+2017-06-27 01:04:09,321 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:04:09
+[uptime] 2:10:20
+[memory] 37.97 MB
+[messages] 144
+2017-06-27 01:14:09,891 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:14:09
+[uptime] 2:20:20
+[memory] 37.97 MB
+[messages] 145
+2017-06-27 01:24:10,471 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:24:10
+[uptime] 2:30:21
+[memory] 37.97 MB
+[messages] 146
+2017-06-27 01:34:11,042 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:34:11
+[uptime] 2:40:21
+[memory] 37.97 MB
+[messages] 147
+2017-06-27 01:44:11,543 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:44:11
+[uptime] 2:50:22
+[memory] 38.00 MB
+[messages] 148
+2017-06-27 01:54:12,096 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 01:54:12
+[uptime] 3:00:22
+[memory] 38.00 MB
+[messages] 149
+2017-06-27 02:04:12,682 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:04:12
+[uptime] 3:10:23
+[memory] 38.00 MB
+[messages] 150
+2017-06-27 02:14:13,203 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:14:13
+[uptime] 3:20:24
+[memory] 38.00 MB
+[messages] 151
+2017-06-27 02:24:13,716 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:24:13
+[uptime] 3:30:24
+[memory] 38.00 MB
+[messages] 152
+2017-06-27 02:34:14,316 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:34:14
+[uptime] 3:40:25
+[memory] 38.00 MB
+[messages] 153
+2017-06-27 02:44:14,863 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:44:14
+[uptime] 3:50:25
+[memory] 38.00 MB
+[messages] 154
+2017-06-27 02:54:15,348 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 02:54:15
+[uptime] 4:00:26
+[memory] 38.00 MB
+[messages] 155
+2017-06-27 03:04:15,915 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:04:15
+[uptime] 4:10:26
+[memory] 38.00 MB
+[messages] 156
+2017-06-27 03:14:16,488 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:14:16
+[uptime] 4:20:27
+[memory] 38.00 MB
+[messages] 157
+2017-06-27 03:24:16,972 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:24:16
+[uptime] 4:30:27
+[memory] 38.00 MB
+[messages] 158
+2017-06-27 03:34:17,543 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:34:17
+[uptime] 4:40:28
+[memory] 38.00 MB
+[messages] 159
+2017-06-27 03:44:18,103 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:44:18
+[uptime] 4:50:28
+[memory] 38.00 MB
+[messages] 160
+2017-06-27 03:54:18,607 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 03:54:18
+[uptime] 5:00:29
+[memory] 38.00 MB
+[messages] 161
+2017-06-27 04:04:19,136 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:04:19
+[uptime] 5:10:30
+[memory] 38.00 MB
+[messages] 162
+2017-06-27 04:14:19,724 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:14:19
+[uptime] 5:20:30
+[memory] 38.00 MB
+[messages] 163
+2017-06-27 04:24:20,290 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:24:20
+[uptime] 5:30:31
+[memory] 38.00 MB
+[messages] 164
+2017-06-27 04:34:20,859 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:34:20
+[uptime] 5:40:31
+[memory] 38.00 MB
+[messages] 165
+2017-06-27 04:44:21,364 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:44:21
+[uptime] 5:50:32
+[memory] 38.00 MB
+[messages] 166
+2017-06-27 04:54:21,910 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 04:54:21
+[uptime] 6:00:32
+[memory] 38.00 MB
+[messages] 167
+2017-06-27 05:04:22,481 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:04:22
+[uptime] 6:10:33
+[memory] 38.00 MB
+[messages] 168
+2017-06-27 05:14:23,001 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:14:23
+[uptime] 6:20:33
+[memory] 38.00 MB
+[messages] 169
+2017-06-27 05:24:23,551 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:24:23
+[uptime] 6:30:34
+[memory] 38.00 MB
+[messages] 170
+2017-06-27 05:34:24,115 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:34:24
+[uptime] 6:40:34
+[memory] 38.00 MB
+[messages] 171
+2017-06-27 05:44:24,637 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:44:24
+[uptime] 6:50:35
+[memory] 38.00 MB
+[messages] 172
+2017-06-27 05:54:25,162 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 05:54:25
+[uptime] 7:00:36
+[memory] 38.00 MB
+[messages] 173
+2017-06-27 06:04:25,648 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:04:25
+[uptime] 7:10:36
+[memory] 38.00 MB
+[messages] 174
+2017-06-27 06:14:26,173 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:14:26
+[uptime] 7:20:37
+[memory] 38.00 MB
+[messages] 175
+2017-06-27 06:24:26,644 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:24:26
+[uptime] 7:30:37
+[memory] 38.00 MB
+[messages] 176
+2017-06-27 06:34:27,185 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:34:27
+[uptime] 7:40:38
+[memory] 38.00 MB
+[messages] 177
+2017-06-27 06:44:27,722 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:44:27
+[uptime] 7:50:38
+[memory] 38.00 MB
+[messages] 178
+2017-06-27 06:54:28,263 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 06:54:28
+[uptime] 8:00:39
+[memory] 38.00 MB
+[messages] 179
+2017-06-27 07:04:28,806 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 07:04:28
+[uptime] 8:10:39
+[memory] 38.00 MB
+[messages] 180
+2017-06-27 22:10:53,225 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 22:10:53
+[uptime] 0:00:15
+[memory] 28.25 MB
+[messages] 1
+2017-06-27 22:10:53,493 wxpy.api.bot DEBUG    <Bot: Yune1>: dumping login status
+2017-06-27 22:10:53,498 wxpy.api.bot INFO     <Bot: Yune1>: joined
+2017-06-27 22:11:08,643 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ DaMing : (System)
+2017-06-27 22:11:34,064 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:12:01,582 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:12:12,174 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ DaMing : (System)
+2017-06-27 22:12:17,270 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ DaMing : 再发一边口令 (Text)
+2017-06-27 22:12:23,497 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 哗一声 : (System)
+2017-06-27 22:12:25,653 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+DaMing : 嘿哈 (Text)
+2017-06-27 22:12:25,682 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:12:25,689 wxpy.api.chats.chat INFO     sending msg to <Friend: DaMing>:
+验证通过 [嘿哈]
+2017-06-27 22:12:25,954 wxpy.api.chats.group INFO     adding <Friend: DaMing> into <Group: 豆瓣动车组●﹏●> (use_invitation=True))
+2017-06-27 22:12:26,250 wxpy.api.chats.chat DEBUG    marking <Friend: DaMing> as read
+2017-06-27 22:12:26,631 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ DaMing : (Sharing)
+2017-06-27 22:12:32,698 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: manually_added):
+哗一声 : 哗一声开启了朋友验证，你还不是他（她）朋友。请先发送朋友验证请求，对方验证通过后，才能聊天。<a href="weixin://findfriend/verifycontact">发送朋友验证</a> (Note)
+2017-06-27 22:12:32,699 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:12:32,701 wxpy.api.chats.chat DEBUG    marking <Friend: 哗一声> as read
+2017-06-27 22:12:34,621 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : 你邀请"DaMing"加入了群聊 (Note)
+2017-06-27 22:12:34,623 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:12:34,624 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+🎉 欢迎 @DaMing 的加入！'
+               新人讲一下你的故事
+               否则群员可投票把你踢
+               出奥.
+2017-06-27 22:12:34,631 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : "DaMing"与群里其他人都不是微信朋友关系，请注意隐私安全 (Note)
+2017-06-27 22:12:34,632 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:12:34,634 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:12:34,929 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:12:35,431 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:12:51,840 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 如风 : (System)
+2017-06-27 22:12:57,853 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 哗一声 : (System)
+2017-06-27 22:13:03,783 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:18:18,389 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : 11 (Text)
+2017-06-27 22:18:18,391 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:18:18,392 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:19:54,988 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:19:54,989 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:19:54,990 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:20:12,092 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:20:49,916 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 豆瓣酱 : (Picture)
+2017-06-27 22:20:53,298 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 22:20:53
+[uptime] 0:10:15
+[memory] 30.13 MB
+[messages] 14
+2017-06-27 22:22:52,218 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:22:52,221 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:22:52,222 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:23:36,367 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:24:06,576 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 3  (Text)
+2017-06-27 22:24:06,576 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:24:06,577 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:27:36,284 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:27:36,297 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:27:36,299 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:29:16,537 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_2次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:29:16,538 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:29:16,539 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:30:47,411 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:30:47,413 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:30:47,414 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:30:53,567 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 22:30:53
+[uptime] 0:20:16
+[memory] 30.16 MB
+[messages] 21
+2017-06-27 22:32:28,027 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_2次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:32:28,029 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:32:28,031 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:32:54,716 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+xy : ？ (Text)
+2017-06-27 22:32:54,717 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:32:54,739 wxpy.ext.tuling DEBUG    Tuling payload:
+{'info': '？',
+ 'key': '61eea024ed154d8f9d8a33e98547057a',
+ 'loc': None,
+ 'userid': '8d64f78e8d3b54e80f7417326494f811'}
+2017-06-27 22:32:55,451 wxpy.ext.tuling DEBUG    Tuling answer:
+{'code': 100000, 'text': '今天谜题是一个问号，请知道的观众朋友们及时来电嘛'}
+2017-06-27 22:32:55,451 wxpy.api.chats.chat INFO     sending msg to <Friend: xy>:
+今天谜题是一个问号，请知道的观众朋友们及时来电嘛
+2017-06-27 22:32:55,707 wxpy.api.chats.chat DEBUG    marking <Friend: xy> as read
+2017-06-27 22:33:43,239 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:33:43,241 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:33:43,242 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:35:23,711 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_2次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:35:23,713 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:35:23,714 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:36:20,459 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:36:20,461 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:36:20,462 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:37:00,642 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 2  (Text)
+2017-06-27 22:37:00,643 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:37:00,644 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:37:49,477 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_1次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:37:49,481 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:37:49,482 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:38:20,415 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:38:30,420 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 3  (Text)
+2017-06-27 22:38:30,423 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:38:30,425 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:38:44,655 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:38:46,730 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:38:53,319 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:39:03,505 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 6  (Text)
+2017-06-27 22:39:03,506 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:39:03,508 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:39:38,214 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:39:41,779 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:39:51,667 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:39:59,462 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 7  (Text)
+2017-06-27 22:39:59,465 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:39:59,466 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:40:17,544 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:40:28,172 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:40:38,405 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 8  (Text)
+2017-06-27 22:40:38,406 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:40:38,407 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:40:40,696 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : 没人陪你聊天，@群主，试一试撒 ↩ 😃 讨论主题 ↩ · 群内不限制聊天话题 ↩ · 支持分享对群员有价值的信息 ↩  ↩  ↩ ⚠️ 注意事项 ↩ · 新成员入群，需讲述一个秘密 ↩     (自己/他人) ↩ · 秘密描述不得少于50字 ↩ · 不说秘密者，可投票移出 ↩  ↩ 👮 投票移出 ↩ · 移出后将被拉黑 24 小时 ↩ · 请在了解事因后谨慎投票 ↩ · 命令格式: "移出 @人员" ↩  (Text)
+2017-06-27 22:40:40,700 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:40:40,740 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:40:49,124 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:40:49,132 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:40:53,921 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 22:40:53
+[uptime] 0:30:16
+[memory] 30.29 MB
+[messages] 38
+2017-06-27 22:41:25,576 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:41:26,869 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+如风 : 嗨 (Text)
+2017-06-27 22:41:26,870 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:41:26,916 wxpy.ext.tuling DEBUG    Tuling payload:
+{'info': '嗨',
+ 'key': '61eea024ed154d8f9d8a33e98547057a',
+ 'loc': '广东省深圳市',
+ 'userid': '20277c09a363745e07ea60de302896e5'}
+2017-06-27 22:41:27,419 wxpy.ext.tuling DEBUG    Tuling answer:
+{'code': 100000, 'text': '你好你好。'}
+2017-06-27 22:41:27,419 wxpy.api.chats.chat INFO     sending msg to <Friend: 如风>:
+你好你好。
+2017-06-27 22:41:27,710 wxpy.api.chats.chat DEBUG    marking <Friend: 如风> as read
+2017-06-27 22:41:35,843 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+如风 : (Recording)
+2017-06-27 22:41:35,844 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:41:35,893 wxpy.api.chats.chat INFO     sending msg to <Friend: 如风>:
+🙉
+2017-06-27 22:41:36,176 wxpy.api.chats.chat DEBUG    marking <Friend: 如风> as read
+2017-06-27 22:42:15,378 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+如风 : ？ (Text)
+2017-06-27 22:42:15,379 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:15,389 wxpy.ext.tuling DEBUG    Tuling payload:
+{'info': '？',
+ 'key': '61eea024ed154d8f9d8a33e98547057a',
+ 'loc': '广东省深圳市',
+ 'userid': '20277c09a363745e07ea60de302896e5'}
+2017-06-27 22:42:15,717 wxpy.ext.tuling DEBUG    Tuling answer:
+{'code': 100000, 'text': '不好意思，今天出门忘带脑子了，你能说得再明白点吗？'}
+2017-06-27 22:42:15,718 wxpy.api.chats.chat INFO     sending msg to <Friend: 如风>:
+不好意思，今天出门忘带脑子了，你能说得再明白点吗？
+2017-06-27 22:42:16,015 wxpy.api.chats.chat DEBUG    marking <Friend: 如风> as read
+2017-06-27 22:42:28,885 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_2次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:42:28,889 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:28,891 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:42:30,536 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+如风 : (Recording)
+2017-06-27 22:42:30,537 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:30,548 wxpy.api.chats.chat INFO     sending msg to <Friend: 如风>:
+🙉
+2017-06-27 22:42:30,835 wxpy.api.chats.chat DEBUG    marking <Friend: 如风> as read
+2017-06-27 22:42:32,524 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:42:43,751 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 1  (Text)
+2017-06-27 22:42:43,751 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:43,752 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:42:45,399 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+如风 : 嘿哈 (Text)
+2017-06-27 22:42:45,400 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:45,415 wxpy.api.chats.chat INFO     sending msg to <Friend: 如风>:
+验证通过 [嘿哈]
+2017-06-27 22:42:45,702 wxpy.api.chats.group INFO     adding <Friend: 如风> into <Group: 豆瓣动车组●﹏●> (use_invitation=True))
+2017-06-27 22:42:45,998 wxpy.api.chats.chat DEBUG    marking <Friend: 如风> as read
+2017-06-27 22:42:46,426 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 如风 : (Sharing)
+2017-06-27 22:42:52,543 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : 你邀请"如风"加入了群聊 (Note)
+2017-06-27 22:42:52,545 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:52,546 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+🎉 欢迎 @如风 的加入！'
+               新人讲一下你的故事
+               否则群员可投票把你踢
+               出奥.
+2017-06-27 22:42:52,565 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : "如风"与群里其他人都不是微信朋友关系，请注意隐私安全 (Note)
+2017-06-27 22:42:52,567 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:42:52,569 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:42:52,801 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:43:10,519 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 什么故事 (Text)
+2017-06-27 22:43:10,521 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:43:10,522 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:43:10,536 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:43:51,917 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 2  (Text)
+2017-06-27 22:43:51,919 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:43:51,920 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:44:06,247 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:44:16,371 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 3  (Text)
+2017-06-27 22:44:16,374 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:44:16,376 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:44:45,128 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:44:55,289 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 6  (Text)
+2017-06-27 22:44:55,292 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:44:55,294 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:45:22,259 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:45:32,425 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 7  (Text)
+2017-06-27 22:45:32,428 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:45:32,430 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:46:56,098 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_admins):
+开发测试 › manue1 : g (Text)
+2017-06-27 22:46:56,101 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:46:56,106 wxpy.api.chats.chat DEBUG    marking <Group: 开发测试> as read
+2017-06-27 22:47:10,281 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:47:11,405 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:47:25,257 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : 新人 (Text)
+2017-06-27 22:47:25,258 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:47:25,259 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+😃 讨论主题
+· 群内不限制聊天话题
+· 支持分享对群员有价值的信息
+· 需要全天福利的朋友,私信群主
+   暗号：私家车
+· 22点后,免费动车发车
+
+⚠️ 注意事项
+· 新成员入群，需讲述一个秘密
+   (自己/他人)
+· 秘密描述不得少于50字
+· 不说秘密者，可投票移出
+
+👮 投票移出
+· 移出后将被拉黑 24 小时
+· 请在了解事因后谨慎投票
+· 命令格式: "移出 @人员"
+
+2017-06-27 22:47:29,145 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 开发测试 : (System)
+2017-06-27 22:47:43,517 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+manue1 : 嘿哈 (Text)
+2017-06-27 22:47:43,517 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:47:43,589 wxpy.api.chats.chat INFO     sending msg to <Friend: manue1>:
+验证通过 [嘿哈]
+2017-06-27 22:47:43,850 wxpy.api.chats.group INFO     adding <Friend: manue1> into <Group: 豆瓣动车组●﹏●> (use_invitation=True))
+2017-06-27 22:47:44,155 wxpy.api.chats.chat DEBUG    marking <Friend: manue1> as read
+2017-06-27 22:47:44,603 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ manue1 : (Sharing)
+2017-06-27 22:47:50,652 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : 你邀请"manue1"加入了群聊 (Note)
+2017-06-27 22:47:50,656 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:47:50,657 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+🎉 欢迎 @manue1 的加入！'
+               新人讲一下你的故事
+               否则群员可投票把你踢
+               出奥.
+2017-06-27 22:47:50,913 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:47:51,114 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: exist_friends):
+DaMing : 私家车 (Text)
+2017-06-27 22:47:51,115 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:47:51,155 root         INFO     reply by keyword: 
+DaMing: "私家车"
+replied: "发我10元红包+邮箱地址,每天全天十分钟一波车"
+2017-06-27 22:47:51,156 wxpy.api.chats.chat INFO     sending msg to <Friend: DaMing>:
+发我10元红包+邮箱地址,每天全天十分钟一波车
+2017-06-27 22:47:51,432 wxpy.api.chats.chat DEBUG    marking <Friend: DaMing> as read
+2017-06-27 22:47:52,052 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:48:04,501 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 已经是个死群了 (Text)
+2017-06-27 22:48:04,504 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:04,507 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:48:08,085 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 还发什么车 (Text)
+2017-06-27 22:48:08,086 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:08,088 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:48:24,135 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 我讲个故事吧 (Text)
+2017-06-27 22:48:24,138 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:24,139 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:48:33,543 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 移出 @DaMing  (Text)
+2017-06-27 22:48:33,548 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:33,552 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+正在投票移出 @DaMing
+当前 1 / 5 票 (300 秒有效)
+移出将拉黑 24 小时 😵
+请谨慎投票 🤔
+2017-06-27 22:48:33,806 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:48:37,196 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 对呀 (Text)
+2017-06-27 22:48:37,198 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:37,200 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:48:56,223 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : @Yune1 不讲故事的人就该投票踢了 (Text)
+2017-06-27 22:48:56,224 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:48:56,229 wxpy.ext.tuling DEBUG    Tuling payload:
+{'info': '不讲故事的人就该投票踢了',
+ 'key': '61eea024ed154d8f9d8a33e98547057a',
+ 'loc': None,
+ 'userid': '75aca2f42952694b343bd22953f0ad69'}
+2017-06-27 22:48:56,744 wxpy.ext.tuling DEBUG    Tuling answer:
+{'code': 100000, 'text': '要是你听不懂怎么办？'}
+2017-06-27 22:48:56,751 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+@manue1 要是你听不懂怎么办？
+2017-06-27 22:48:56,993 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:49:21,499 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:49:42,484 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : 移出 @⭕  (Text)
+2017-06-27 22:49:42,490 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:49:42,493 wxpy.api.chats.group INFO     removing <Member: ⭕> from <Group: 豆瓣动车组●﹏●>
+2017-06-27 22:49:43,320 __main__     DEBUG    new thread: try_send
+2017-06-27 22:49:43,324 wxpy.api.chats.chat INFO     sending msg to <Member: ⭕>:
+抱歉，你已被管理员移出，接下来的 24 小时内，机器人将对你保持沉默 😷
+2017-06-27 22:49:43,333 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+@⭕ 已被成功移出! 😈
+2017-06-27 22:49:43,430 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: welcome):
+豆瓣动车组●﹏● : 你将"<span class="emoji emoji2b55"></span>"移出了群聊 (Note)
+2017-06-27 22:49:43,432 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:49:43,433 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:49:54,406 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 最短时间勾搭经历，一次从厦门坐火车到长沙20小时左右，直接跟同座女的车上kiss，下车后开房。 (Text)
+2017-06-27 22:49:54,408 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:49:54,409 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:49:54,420 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:50:20,719 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › manue1 : (Picture)
+2017-06-27 22:50:23,490 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › manue1 : (Picture)
+2017-06-27 22:50:36,494 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 豆瓣酱 : (Picture)
+2017-06-27 22:50:44,499 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 当着那么多人面，居然亲人家 (Text)
+2017-06-27 22:50:44,500 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:50:44,501 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:50:54,256 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 22:50:54
+[uptime] 0:40:16
+[memory] 31.70 MB
+[messages] 91
+2017-06-27 22:50:54,805 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 移出 @豆瓣酱  (Text)
+2017-06-27 22:50:54,808 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:50:54,817 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+正在投票移出 @豆瓣酱
+当前 1 / 5 票 (300 秒有效)
+移出将拉黑 24 小时 😵
+请谨慎投票 🤔
+2017-06-27 22:50:55,092 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:50:55,719 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:51:02,568 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 麻烦大家投下票 (Text)
+2017-06-27 22:51:02,571 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:51:02,572 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:51:08,576 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 没讲故事的踢掉 (Text)
+2017-06-27 22:51:08,577 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:51:08,578 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:51:43,079 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › manue1 : 移出 @Yune1  (Text)
+2017-06-27 22:51:43,080 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:51:43,082 root         ERROR    manue1 tried to kick Yune1 whom was an admin
+2017-06-27 22:51:43,083 wxpy.api.chats.chat INFO     sending msg to <Friend: Yune1>:
+root:ERROR:manue1 tried to kick Yune1 whom was an admin
+2017-06-27 22:51:43,235 wxpy.api.chats.chat INFO     sending msg to <Group: 豆瓣动车组●﹏●>:
+无法移出管理员 @Yune1 😷️
+2017-06-27 22:51:43,486 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:52:01,161 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 还有一次春节前从东北长春坐火车到长沙，40多个小时左右，晚上直接把一个大学生给撩了，在车上摸胸，她本来不是到长沙，后来提前跟我一起下车开房。 (Text)
+2017-06-27 22:52:01,162 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:52:01,163 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:52:14,347 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:52:14,359 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+2017-06-27 22:52:19,593 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 再后来她对我有意思，哎。 (Text)
+2017-06-27 22:52:19,595 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:52:19,597 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:52:59,639 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : 我觉得你应该很帅 (Text)
+2017-06-27 22:52:59,641 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:05,353 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 不帅 (Text)
+2017-06-27 22:53:05,357 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:05,359 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:53:08,379 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 真不帅 (Text)
+2017-06-27 22:53:08,380 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:08,381 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:53:17,376 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 当时胆子大 (Text)
+2017-06-27 22:53:17,383 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:17,388 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:53:20,376 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_3次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:53:20,377 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:20,378 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:53:41,854 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 蜡笔先生 : 继续说故事啊 (Text)
+2017-06-27 22:53:41,858 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:41,862 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:53:46,867 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 以前大学扣扣勾搭过妹子 (Text)
+2017-06-27 22:53:46,871 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:53:46,873 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:14,960 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 一个处女，后来实在不敢破人家的处 (Text)
+2017-06-27 22:54:14,963 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:14,964 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:15,374 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 蜡笔先生 : 说出你的故事 (Text)
+2017-06-27 22:54:15,375 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:15,376 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:20,375 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 上床没做 (Text)
+2017-06-27 22:54:20,376 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:20,377 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:23,625 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:54:33,806 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 2  (Text)
+2017-06-27 22:54:33,808 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:33,809 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:39,419 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : @豆瓣酱  你讲故事了吗？ (Text)
+2017-06-27 22:54:39,419 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:40,447 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 大四那年很疯狂 (Text)
+2017-06-27 22:54:40,450 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:40,453 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:50,728 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+↪ 豆瓣动车组●﹏● : 你有点吊 (Text)
+2017-06-27 22:54:50,731 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:52,285 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 勾搭了好几个 (Text)
+2017-06-27 22:54:52,288 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:52,291 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:54:57,509 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 3  (Text)
+2017-06-27 22:54:57,511 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:54:57,512 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:55:08,142 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 蜡笔先生 : 大学生很好上吗 (Text)
+2017-06-27 22:55:08,145 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:55:08,148 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:55:10,883 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 没有呢 (Text)
+2017-06-27 22:55:10,884 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:55:10,885 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:55:10,895 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:55:31,204 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 上过一个学妹 (Text)
+2017-06-27 22:55:31,209 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:55:31,210 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:56:08,768 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 讲一个比较遗憾的故事吧 (Text)
+2017-06-27 22:56:08,770 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:56:08,771 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:56:16,584 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 也上过人妻 (Text)
+2017-06-27 22:56:16,586 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:56:16,588 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:56:47,663 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_4次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 22:56:47,664 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:56:47,666 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:57:07,575 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 22:57:17,735 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 1  (Text)
+2017-06-27 22:57:17,735 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:57:17,736 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:57:29,791 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 这个也是机器人嘛 (Text)
+2017-06-27 22:57:29,794 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:57:29,796 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:57:35,217 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 遗憾的故事就是毕业后，去珠海见一个网友，人家家庭条件不错，当时开房钱她出的 (Text)
+2017-06-27 22:57:35,219 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:57:35,221 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:57:49,060 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 我当时居然没想发生什么 (Text)
+2017-06-27 22:57:49,062 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:57:49,064 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:58:02,918 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 就牵了手，连kiss都没 (Text)
+2017-06-27 22:58:02,920 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:58:02,922 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:58:13,542 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 这小伙子是不是活好，上到五十下到十五 (Text)
+2017-06-27 22:58:13,544 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:58:13,546 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:58:27,598 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 不敢当 (Text)
+2017-06-27 22:58:27,602 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:58:27,603 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:58:30,105 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 22:58:57,091 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 最大年龄应该不超过40，最少年龄也有20了吧 (Text)
+2017-06-27 22:58:57,093 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:58:57,096 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:59:12,346 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 有学生，人妻 (Text)
+2017-06-27 22:59:12,350 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:59:12,352 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:59:29,996 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 露个鸡儿给姐姐看看[奸笑] (Text)
+2017-06-27 22:59:29,997 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:59:29,998 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 22:59:35,215 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 也有因为做过几次人家对我有好感😂 (Text)
+2017-06-27 22:59:35,217 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 22:59:35,218 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:00:02,315 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 想和我谈恋爱，醉了 (Text)
+2017-06-27 23:00:02,319 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:00:02,322 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:00:54,609 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 23:00:54
+[uptime] 0:50:17
+[memory] 34.76 MB
+[messages] 136
+2017-06-27 23:01:08,941 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 如风 : (Picture)
+2017-06-27 23:01:41,238 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_other_group):
+🐶汪星人 family😊 › 嘻嘻嘻嘻嘻 : 求群友推荐靠谱的兽医[撇嘴][撇嘴]家里狗狗生病了 (Text)
+2017-06-27 23:01:41,239 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:01:41,241 wxpy.api.chats.chat DEBUG    marking <Group: 🐶汪星人 family😊> as read
+2017-06-27 23:01:54,079 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 8  (Text)
+2017-06-27 23:01:54,083 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:01:54,085 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:02:17,954 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 优质男😂 (Text)
+2017-06-27 23:02:17,957 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:02:17,959 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:02:24,799 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 如风 : (Picture)
+2017-06-27 23:02:39,642 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 扯，我是禽兽[抠鼻] (Text)
+2017-06-27 23:02:39,645 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:02:39,647 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:03:07,720 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_other_group):
+🐶汪星人 family😊 › 空欢喜 : [掩面]你应该问你当地人 (Text)
+2017-06-27 23:03:07,721 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:03:07,723 wxpy.api.chats.chat DEBUG    marking <Group: 🐶汪星人 family😊> as read
+2017-06-27 23:03:44,654 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_5次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 23:03:44,657 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:03:44,659 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:03:54,180 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:03:57,147 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 🐶汪星人 family😊 : (System)
+2017-06-27 23:04:04,321 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 2  (Text)
+2017-06-27 23:04:04,324 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:04:04,326 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:04:39,636 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 又没人了啊 (Text)
+2017-06-27 23:04:39,637 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:04:39,639 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:04:58,692 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 还有一次在租房的小区里约过一个女的，第一次见直接给上了 (Text)
+2017-06-27 23:04:58,693 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:04:58,694 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:05:05,316 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_other_group):
+🐶汪星人 family😊 › 嘻嘻嘻嘻嘻 : 上海地区都可以[捂脸][捂脸] (Text)
+2017-06-27 23:05:05,317 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:05:05,321 wxpy.api.chats.chat DEBUG    marking <Group: 🐶汪星人 family😊> as read
+2017-06-27 23:05:33,420 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_other_group):
+🐶汪星人 family😊 › 长沙-金毛lucky : 11点多去噢 (Text)
+2017-06-27 23:05:33,421 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:05:33,423 wxpy.api.chats.chat DEBUG    marking <Group: 🐶汪星人 family😊> as read
+2017-06-27 23:05:37,203 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+🐶汪星人 family😊 › 长沙-金毛lucky : "Acalanatha" 撤回了一条消息 (Note)
+2017-06-27 23:05:41,251 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 还有在私人影院约过一个姐姐，两次居然都软了，尴尬了，人家以为我阳痿 (Text)
+2017-06-27 23:05:41,252 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:05:41,253 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:06,124 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 那可能真的是 (Text)
+2017-06-27 23:06:06,128 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:06,130 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:06,531 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: reply_other_group):
+🐶汪星人 family😊 › 空欢喜 : [掩面]你狗狗咋个了 (Text)
+2017-06-27 23:06:06,532 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:06,534 wxpy.api.chats.chat DEBUG    marking <Group: 🐶汪星人 family😊> as read
+2017-06-27 23:06:08,508 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 👑 : 😂😂😂 (Text)
+2017-06-27 23:06:08,511 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:08,512 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:15,755 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : [擦汗] (Text)
+2017-06-27 23:06:15,755 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:15,756 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:24,413 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 这个真不是 (Text)
+2017-06-27 23:06:24,415 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:24,417 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:38,438 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 紧张 (Text)
+2017-06-27 23:06:38,440 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:38,442 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:42,057 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 两个人身体没默契 (Text)
+2017-06-27 23:06:42,058 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:42,059 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:06:47,006 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:06:57,100 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 8  (Text)
+2017-06-27 23:06:57,102 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:06:57,104 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:07:22,599 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+↪ 豆瓣动车组●﹏● : (System)
+2017-06-27 23:07:35,443 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+🐶汪星人 family😊 › 空欢喜 : "空欢喜" 撤回了一条消息 (Note)
+2017-06-27 23:08:47,776 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_6次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 23:08:47,777 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:08:47,779 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:09:21,285 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 如风 : (Picture)
+2017-06-27 23:09:46,628 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:09:56,805 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 1  (Text)
+2017-06-27 23:09:56,807 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:09:56,811 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:09:56,821 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 这个人妻在成都旅游时，酒店附近的人加的 (Text)
+2017-06-27 23:09:56,822 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:09:56,823 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:10:43,540 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 我要离开的当天加的，遗憾错过了 (Text)
+2017-06-27 23:10:43,541 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:10:43,543 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:10:49,635 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:10:54,873 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 23:10:54
+[uptime] 1:00:17
+[memory] 34.02 MB
+[messages] 170
+2017-06-27 23:10:58,621 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 你还留着 (Text)
+2017-06-27 23:10:58,622 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:10:58,623 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:10:59,823 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 3  (Text)
+2017-06-27 23:10:59,824 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:10:59,826 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:11:05,647 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 韩为止 : 看来是个pua高手哇 (Text)
+2017-06-27 23:11:05,650 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:11:05,653 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:11:27,930 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 还留着下次去成都可以约😂 (Text)
+2017-06-27 23:11:27,931 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:11:27,932 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:12:27,742 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 如风 : (Picture)
+2017-06-27 23:12:53,018 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 这个去年底漂流瓶加的，后来去广州上了 (Text)
+2017-06-27 23:12:53,018 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:12:53,019 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:13:28,974 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 如风 : 感觉自己有时候是人渣，双重性格。 (Text)
+2017-06-27 23:13:28,976 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:13:28,978 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:13:56,336 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:14:06,479 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 8  (Text)
+2017-06-27 23:14:06,482 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:14:06,483 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:14:21,136 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 豆瓣酱 : 你没对象还好 (Text)
+2017-06-27 23:14:21,139 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:14:21,141 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:15:57,287 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_7次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 23:15:57,290 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:15:57,292 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:16:31,064 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:16:41,212 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 1  (Text)
+2017-06-27 23:16:41,218 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:16:41,220 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:17:32,051 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 2  (Text)
+2017-06-27 23:17:32,053 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:17:32,055 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:19:36,419 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:19:46,357 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 4  (Text)
+2017-06-27 23:19:46,362 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:19:46,365 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:20:44,787 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 5  (Text)
+2017-06-27 23:20:44,790 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:20:44,792 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:20:55,251 wxpy.api.chats.chat INFO     sending msg to <Group: 开发测试>:
+[now] 23:20:55
+[uptime] 1:10:17
+[memory] 34.29 MB
+[messages] 188
+2017-06-27 23:21:08,013 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:21:18,336 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 6  (Text)
+2017-06-27 23:21:18,337 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:21:18,338 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:22:30,066 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 8  (Text)
+2017-06-27 23:22:30,068 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:22:30,072 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:24:20,501 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : D20170627_8次列车即将发车，请乘客坐稳 (Text)
+2017-06-27 23:24:20,503 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:24:20,505 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:25:49,684 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: None):
+豆瓣动车组●﹏● › 泪 : (Video)
+2017-06-27 23:25:59,660 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 4  (Text)
+2017-06-27 23:25:59,663 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:25:59,665 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read
+2017-06-27 23:28:02,585 wxpy.api.bot DEBUG    <Bot: Yune1>: new message (func: wxpy_group):
+豆瓣动车组●﹏● › 泪 : share video 7  (Text)
+2017-06-27 23:28:02,588 wxpy.api.bot DEBUG    new thread: _process_message
+2017-06-27 23:28:02,590 wxpy.api.chats.chat DEBUG    marking <Group: 豆瓣动车组●﹏●> as read

@@ -42,3 +42,859 @@ INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_other_group (
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: wxpy_group (Enabled, Async)>
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_admins (Enabled, Async)>
 INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: welcome (Enabled, Async)>
+█DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 86812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=nKViSU7fMPmf3uXy&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&pass_ticket=ewfN4xxMgr0HUMBoDJxfKFBjpQy7SkX1NBrj%2FGqD59k9AL9syMKCJ3fEfqlD%2BL8z HTTP/1.1" 200 2555
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webpush.wx2.qq.com
+DEBUG:wxpy.api.bot:new thread: _listen
+INFO:wxpy.api.bot:<Bot: Yune1>: started
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ Yune1 : (System)
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ DaMing : (System)
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572639&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572641&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572643&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+INFO:wxpy.api.chats.group:updating <Group: 开发测试> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572645 HTTP/1.1" 200 698
+INFO:wxpy.api.chats.group:updating <Group: 不要太羞涩🙈> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572645 HTTP/1.1" 200 6426
+INFO:wxpy.api.chats.group:updating <Group: 私家车> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572645 HTTP/1.1" 200 1433
+INFO:wxpy.api.chats.group:updating <Group: 豆瓣动车组●﹏●> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572646 HTTP/1.1" 200 2256
+INFO:wxpy.api.chats.group:updating <Group: 豆瓣动车组@_@> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572646 HTTP/1.1" 200 654
+INFO:wxpy.api.chats.group:updating <Group: 豆瓣动车组⊙_⊙> (members_details=False)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1498572646 HTTP/1.1" 200 657
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572647&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://webpush.wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/synccheck?r=1498572639109&skey=%40crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&sid=nKViSU7fMPmf3uXy&uin=1219371306&deviceid=e276796344218456&synckey=1_658308985%7C2_658308999%7C3_658308991%7C11_658308972%7C13_658171864%7C201_1498572614%7C1000_1498556341%7C1001_1498556371&_=1498572639109 HTTP/1.1" 200 43
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=nKViSU7fMPmf3uXy&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&pass_ticket=ewfN4xxMgr0HUMBoDJxfKFBjpQy7SkX1NBrj%2FGqD59k9AL9syMKCJ3fEfqlD%2BL8z HTTP/1.1" 200 736
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ 开发测试 : (System)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572649&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://webpush.wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/synccheck?r=1498572650273&skey=%40crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&sid=nKViSU7fMPmf3uXy&uin=1219371306&deviceid=e429855664219889&synckey=1_658308985%7C2_658309000%7C3_658308991%7C11_658308972%7C13_658171864%7C201_1498572649%7C1000_1498556341%7C1001_1498556371&_=1498572639110 HTTP/1.1" 200 43
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=nKViSU7fMPmf3uXy&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&pass_ticket=ewfN4xxMgr0HUMBoDJxfKFBjpQy7SkX1NBrj%2FGqD59k9AL9syMKCJ3fEfqlD%2BL8z HTTP/1.1" 200 730
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ 开发测试 : s (Text)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498572651&seq=0&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2 HTTP/1.1" 200 24276
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:__main__:new thread: heartbeat
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: new_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: exist_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: manually_added (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_other_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: wxpy_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_admins (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: welcome (Enabled, Async)>
+2017-06-27 22:51:43,082 root         ERROR    manue1 tried to kick Yune1 whom was an admin
+█DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 86812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=nKViSU7fMPmf3uXy&skey=@crypt_ff49acb4_d58e10a816d68018a0aab1ae562cb6f2&pass_ticket=ewfN4xxMgr0HUMBoDJxfKFBjpQy7SkX1NBrj%2FGqD59k9AL9syMKCJ3fEfqlD%2BL8z HTTP/1.1" 200 626
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  ███    ███      ███  █  ███              █
+█  █████  ██  █  ██  ██████  ███  ████  █████  █
+█  █      █  █        █        █    █  ███  █    █  █      █  █
+█  █      █  █  █  ██  █  █  ████  ██        █  █      █  █
+█  █      █  ██  █  █    █  █  █        █    ███  █      █  █
+█  █████  ███  ████  █  █████  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ████      ██        █    █    █████████
+████    █    █    █████  ████      █████████    ███
+█████    █      █████    ███      ██  █      ██  █    ██
+██            █          █          ██      █  █          █    █  █
+██  ██    █  ███  █  ███      █  ████  █              █  █
+█  ██            █    ██████      ██  ███    █    █        █
+███  █  ██    ██      ██  █      █    ██        ██  █  ███
+███  ███    █      ██    █  ██    █      █  █    █          █
+█  █  ██  ██  ███  ███████  █      ██  █  ██        ██
+████  ██      ████      █  ███    ██  ██  █    ██  █  █
+██      ███  █  █    █    ███████      █  █  █  ███  ██
+█      █  █  ██  █  ███  █    ██    █  ██  ███  ██  █  █
+████  █████  ██  █    █        █  █    ███  ███  ████
+█  ██  █    █        █        ██                █      █    ████
+█    █████  █    ████    ████    █    █    ██    █    ██
+██    █  █  █    █  █      ███  ██  █  ██  █    █  ██    █
+██          █  █  ██    █    ██  ██      █      █    ██  █  █
+███  ██    ████    █  ███  █  █  ██    █      █    ██  █
+█  ███████        ████    █      ██  █  █  ███  ██  ██
+█      ███    ██  ██  ██          █  ██      ██    █  █    █
+█  █    █  ████  █  █████  ██    █  █  ██  █        ███
+█  █████      █    ██        █    █    █  ██            ████
+█████████  █      █████  ██  █  █  ██  ███        ██
+█              █  █      █    █    ████    ███  █  █      █  █
+█  █████  ██  ███      █    ██  █  █    █  ███    █  ██
+█  █      █  █  █  ██    █  █  █  ███  ██            ██  ██
+█  █      █  █  █  ██  ███    █    ████      █  ██  ████
+█  █      █  ██  █        █    ███  ██  █  █  ██            █
+█  █████  ███        ████      █  ███  ███  █  █      █
+█              ██  █  █    █    █  █    █  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.3590880304&_=1498577360 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.374920836&_=1498577385 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.3907536415&_=1498577410 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4065864471&_=1498577435 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4224192527&_=1498577460 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4382520582&_=1498577485 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4540848639&_=1498577510 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4699176694&_=1498577535 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.4863837872&_=1498577561 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.5022165928&_=1498577586 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.5180493983&_=1498577611 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.533882204&_=1498577636 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfU2BD_1-A==&tip=0&r=949067.5497150095&_=1498577661 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █    █  ███  ██  ██  █  ███              █
+█  █████  ██  █  █  █████        ██  ████  █████  █
+█  █      █  █        █  █    █  ███  ██  █    █  █      █  █
+█  █      █  █  █  ████  █  ██  ████        █  █      █  █
+█  █      █  ██  █      ██  █  ██  █  █    ███  █      █  █
+█  █████  ███        █  █  █      █  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ██  █      ██    █  █    █    █████████
+████    █    █    ██    ████████  █████████    ███
+██    █    █      ████  █  ███      ██  █            ██  ██
+██  ██      █          █  ███  ██    ██  █        █████  █
+██  █  ███  █      █  █  █      █  ██  █    █    ██    █  █
+█  █  █            █  ███            ██    ██    █    █        █
+████      █    █        ██  ██    █      █        ██  █  ███
+███  █  █    ██    ██        ██    ███  █  █    █          █
+█  █  █████  ███  ██  ██  █  █  ████  █  ██        ██
+████  █          ███    ██    ██    ██  ██  █    ██  █  █
+██      ███  █  █    █    ██    ███      █  █  █  ███  ██
+██    █  █  █    ███      █      █    █  ██  ███  ██  █  █
+█    █  ███  █  █  █      █    █  █  █    ███  ███  ████
+████  █                        ██    █          █      █    ████
+██  ██████            █    ██    ███    █    ██    █  ███
+█      █  █    █  █  ██    ███  ████  ██  █    █  ███  █
+███        ██    █      █    ███  █      █      █    ██  █  █
+█      ██    █████  ███  █  █      ██    █  █  █    ████
+█  ███████  █    █████  █      ██  █          █  ██  ██
+█      █  █    █    ██  █    █      █  ██        █      █      █
+█  █  ██  ███    █  ██        ██    █  █  █    ██      ███
+█  █    ██      ██  ██      ██    █        █                ███
+█████████  ██    ██    █  ██  ██    ██  ███        ██
+█              █          █  ███  ████    ███  █  █      █  █
+█  █████  ██████      █  ███  ███    █  ███    █  ██
+█  █      █  █  ███            ██████  ██            ██  ██
+█  █      █  █  ██    ████    ███████      █  ██  ████
+█  █      █  ██  █  █  ██    █    ███  █  █  ██            █
+█  █████  ███  ██    ███  ███████  ███  █  █      █
+█              ██  ███  ██    █  █  ██  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.5497150095&_=1498577661 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.5655478151&_=1498577686 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.5813806206&_=1498577711 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.5978467384&_=1498577737 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6136795441&_=1498577762 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6295123496&_=1498577787 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6453451551&_=1498577812 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6611779607&_=1498577837 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6770107663&_=1498577862 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.6928435719&_=1498577887 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.7086763774&_=1498577912 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.7245091831&_=1498577937 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qd-iAbRQPg==&tip=0&r=949067.7403419886&_=1498577962 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  ██  █  ████      ██  █  ███              █
+█  █████  ██  ██  ██████    █  ██  ████  █████  █
+█  █      █  █      ████    █  ███  ██  █    █  █      █  █
+█  █      █  █  █        █  █  █    █  ██        █  █      █  █
+█  █      █  ██  ██    ██  █    ██    █    ███  █      █  █
+█  █████  ███    ███  █  █  ██    ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ██          ██        █    █    █████████
+████    █    █    ██    █  ██  ███  █████████    ███
+██      █  █      ████  ██  ██    █  █  █    ██    ██  ██
+██  ██      █    █    █  █  ████      █  █        ██  ██  █
+██    █    █  █  █  █  █      █  █  ██  █  █      ██    █  █
+█  ██  ██      ██  ███  ███    ██    ██    █    ███    █
+████████    ██      ██          █    ██        ██  █  ███
+█████  █    █  █  ██    █  ██    ██    █  █    █          █
+█  █  █████  ███  ███  ███  █    ███  █  ██        ██
+████  █        ███        ██  █        █  ██  █    ██  █  █
+██      ███      █    █    █████  █      █  █  █  ███  ██
+█  █  █  █    █  █  ██    █      █  ██  ██  ███  ██  █  █
+████  ████    █      █  █        ███    ███  ███  ████
+█  ██  █    █            █    ██  █            █      █    ████
+██  █████  █    █          ████  ██          ██    █  █  █
+█  █  █  █  █    █  ███  ███  █  ██  ██  █  ██  ███  █
+███        ███  █            ███    █    █        █  ██      █
+██      █      ████  █  ███          ██    █        █  █    █
+█    █  ████        ███    ██      ██  █  █    ██  ██  ██
+█                █    ██  ███        █  ██      ██      █      █
+█  █    █  ██████  ██        ██    █  █  █    ███    ███
+█  █              █    ██    █  █    █    █  █            █  ███
+█████████  ██    ████████  ███  ██  ███        ██
+█              █    █    █  █      ████    ███  █  █      █  █
+█  █████  ██  ███          ███  █        █  ███    █  ██
+█  █      █  █    ███          ██████  ██            ██  ██
+█  █      █  █  █    █  ███  █      ████      █  ██  ████
+█  █      █  ██  █        █    ██████  █  █  ██            █
+█  █████  ███  █  █  ███          ███  ███  █  █      █
+█              ██  ██  █  █    ████  █  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.7409753008&_=1498577963 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.7568081064&_=1498577988 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.772640912&_=1498578013 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.7884737175&_=1498578038 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8043065231&_=1498578063 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8201393287&_=1498578088 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8359721343&_=1498578113 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8518049398&_=1498578138 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8676377455&_=1498578163 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.883470551&_=1498578188 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.8993033565&_=1498578213 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.9151361621&_=1498578238 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AbpHqzbj1A==&tip=0&r=949067.9309689677&_=1498578263 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ███  █            █  █        █      █              █
+█  █████  █    ██  █  ████  █  ███  ████  █████  █
+█  █      █  ██                  █████    ██    █  █      █  █
+█  █      █  ██    █    ████  █  ██      ██  █  █      █  █
+█  █      █  █████    █        █  █████    ██  █      █  █
+█  █████  █  ██  ███    ████  ███  ██  █  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+█████████  █        ███    █  █    ██  ███████████
+█████        █████        ██    ██  ██      █    ███  ██
+██  █  █  ██      ██  ██    █        █  ██  ███      █  ██
+█    █  ██  ██  █  ██████  █    █  █      █  ███    ███
+█    █  ███  █          ███      ██████  ██  █  █    ███
+█  ██            █  ████████          █████      █    █  █
+████  █  █      █      ██  █      █  █  █        ██  █  ███
+█    ████  ██    █      █  █        █    ██  ███        ███
+███      ██████  ██  █  █  ██      ██  ███  ███  █  █
+██  ██      ███    ██  ██  █    █    ███        ██        █
+█  ██      ███  █    ██      ██      █  █      ███  █  ███
+█  ███  █  ██  █████  █  █    █  ██      ██  █  █  ███
+██    █    ██  █          █  ██  ███  ██      █      █      █
+█  █  █      ████  ████████    █      █  █    ███  ███
+██  ██  ███    █    █    ███      ██  ██  ████  ██  ██
+███████  █      ████    █  █  █████      █  ███  ███
+███  █    █  █████    █  █  ███    ██  █  ██  █    █  █
+███      █    █    █  ██            ██  █      █    ███  ███
+█        ████  █    ████  ██      ██  █      ███  ██  ██
+█████      ████    ███  ███  █      █    █  █      ████
+███        ██        ██  ██  ██  █    ███    █      █      █
+█              █    ███    ██    █      █  ███          █    ██
+█████████  █  █            █          ██  █  ███    ████
+█              █  ██  █  █            ██        █  █  █      ███
+█  █████  █  ██    ██            █    ███    ███  █  █  █
+█  █      █  █    ███  █  ████      █  █  █                ██
+█  █      █  █████  ███          █  ██      ██    █    ███
+█  █      █  ██    ███  ██      █    ███████    █  █  ██
+█  █████  ██        █    ████████  █    ████        ██
+█              ███    ███  ███  █  █    ██  █    ███      █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949067.9316022799&_=1498578264 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949067.9474350855&_=1498578289 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949067.9632678911&_=1498578314 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949067.9791006966&_=1498578339 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949067.9949335022&_=1498578364 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0107663078&_=1498578389 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0265991134&_=1498578414 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0424319189&_=1498578439 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0582647246&_=1498578464 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0740975301&_=1498578489 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.0899303356&_=1498578514 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.1063964535&_=1498578540 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qakt2ot-ag==&tip=0&r=949068.122229259&_=1498578565 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █  █    ████  █  ██  █  ███              █
+█  █████  █    █  ██████    ████  █  ███  █████  █
+█  █      █  █        █            █        █        █  █      █  █
+█  █      █  █  ██                ███  █    █  ██  █      █  █
+█  █      █  █      █  █████      █    ██  █  █  █      █  █
+█  █████  █  ████  █    █      █  █  █  █  █  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  █    ██    █        ████      █████████
+███  ██              █  ██    ██  █  █  █  ██  █          ██
+█    █  █  █  ██  █  █████  ██  █  █      █    ██  █    █
+███  █                        ██    █  █    ██  █      ██  █  █
+█    ███  █  ████    ███  █  █    █  █  ████  █  █  ██
+█  ██  █          █  ███      █    ██    ██    █    ███    █
+█      ███████    ██  █  █  ███        █          ██  █  █
+█████              ████    ████  █          ██  ██    █  █
+███  █  ████    ███  ███  ████    █          ██  █    █
+██        █  ███  █  █            █  █  ██████  █████  █
+██        ██      ███            ██    ██  █    █    ██  █  █
+█  █  █  █    █  ██  █    █        ███  ██  ███  ██  █  █
+███    ███  █  █  █  █  █  ██      ███  ██          ██  █
+███    ██  ██        ██      █  ████    ██  █  ██  █  ██
+█  █  █  ██  █  █  █  █  ██  █      ██  █  ██    ███    █
+██    ███  █          ██    ███  █  █    █            █      █
+██      █████        ██  █      ██████    ██    ███    █
+██    ██      ████    ████  █      ██    ███        █    █
+██      ███  ██          ███  ██    ██  ██  ██  ███    █
+█    ██  █        █  █    █        ██    █  █            █  █  █
+███    █  ██  █████    ████    ███████    ██  ██  █
+█    ████  █  █    █    █      █  ██    ███          █  ███
+█████████      ████  █  ███    █    ██  ███    ██  █
+█              █          █    █    ████  ████  █  █      █  █
+█  █████  █      █  ██  █  █      ██████  ███    █    █
+█  █      █  ██      █  ██    ██  ███  █              █████
+█  █      █  ███  ███  █          █  █  ██  ████      █  █
+█  █      █  █      █      ██  █  █  ██      █████    █    █
+█  █████  ████  █  ██    █  ██      █  █    ██  █████
+█              ██  █  █    █    █  █    ██  ██  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.122229259&_=1498578565 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.1380620647&_=1498578590 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.1538948702&_=1498578615 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.1697276757&_=1498578640 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.1855604813&_=1498578665 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.2013932869&_=1498578690 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.2172260925&_=1498578715 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.233058898&_=1498578740 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.2488917037&_=1498578765 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.2653578214&_=1498578791 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.281190627&_=1498578816 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.2970234326&_=1498578841 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AYC5qPF2HQ==&tip=0&r=949068.3128562381&_=1498578866 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  ██  █  ███  ██  ██  █  ███              █
+█  █████  █    █  ██████  ██  ██  █  ███  █████  █
+█  █      █  █      █  █          ██      █        █  █      █  █
+█  █      █  █  ███  █            █    █    █  ██  █      █  █
+█  █      █  █            ████    █  █  ██  █  █  █      █  █
+█  █████  █  █████      █      ███  █  █  █  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  █  █  █    █    ██  ███      █████████
+███  ██              █  ███  ██    ██  █  ██  █          ██
+█    █      █  █    █  ██    █  ██  █          ███  █  █    █
+███    █        ██        ████  █  █████  █          ██  █
+█    █    ██  █    █    ██    █  █    ███      ██    ██  ██
+█  ████              ███      █    ██    ██    █    ███    █
+█      ██  █████  ██      █  ███  █    █          ██  █  █
+███              █  ████  █████  ██        ██  ██    █  █
+█████  █████████  ███  ████    █          ██  █    █
+██  █  ██  ███  █  █  █    █  █  █  ██████  █████  █
+█          ██  █  █  ██        ████  ██  █    █    ██  █  █
+█      █  █    █  █  █      █        ███  ██  ███  ██  █  █
+█  █    ███  █  █      █  █  █      ████  ██          ██  █
+█  █    ██    █        ██      █        █    ██  █  ██  █  ██
+██    █  ██      ██  ██  ██    █    ██      ██    ███  ██
+█      ███  █      █  ██    ███    ██    █      █    █  █  █
+█  █    ███  █              █    █    ████    █      ██████
+███    █      ████  █████  █  █  ██    ██      █  ██  █
+█████  ██  ██          █      ██  ███  █          █  █    █
+█    ████        █  █    █  ██  ██    █  █        █  █  █  █
+█████    ██  █  ███    ██  █    █████  █    ██  ██  █
+█        ██  █  ██  █      █  ██  ██    ██            █  ███
+█████████    █████  █    ██          ██  ███    ██  █
+█              █  █      █  ██  █████  ████  █  █      █  █
+█  █████  █    ██  ██    ██      ██████  ███    █    █
+█  █      █  ██  █      ██  █  █  ███  █              █████
+█  █      █  ███  █  █  █    ██  █  █  ██  ████      █  █
+█  █      █  █              ██  █  ████      █████    █    █
+█  █████  ████  ████    █████    █  █    ██  █████
+█              ██  █  █    █    █        ██  ██  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.3128562381&_=1498578866 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.3286890436&_=1498578891 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.3445218493&_=1498578916 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.3603546548&_=1498578941 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.3761874604&_=1498578966 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.392020266&_=1498578991 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4084863837&_=1498579017 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4243191894&_=1498579042 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4401519949&_=1498579067 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4559848005&_=1498579092 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4718176061&_=1498579117 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.4876504117&_=1498579142 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QYdV5QlK2w==&tip=0&r=949068.5034832172&_=1498579167 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              █    ███    ██████  ██  █  ███              █
+█  █████  ██  █  █████████  ████  ███  █████  █
+█  █      █  █    ███  █  ██    █  █████  ██  █      █  █
+█  █      █  ███      ██  █  █  █    ██        █  █      █  █
+█  █      █  █    ███    █      █      ██  ████  █      █  █
+█  █████  ████  █  █    ██    █  ███  █  █  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+█████████    ██    █    ██    █  █  █      █████████
+██████    ██  ███    ██████  █      ██  █  █  █  █  █
+██  ██    █      ██████    ██    ██    █    █        █  ██
+██      ██  █████  ████  ██      █          █  ███      █
+██  █    ██  █  ███  █  ██    █      ██  ███  █    █    █
+█  █    ██      ██  ████  █      ██████    █    █        █
+██    █  ██████    █      █████  ██  █      █  ██  ███
+██    █  █  ████  █    ██  █        ████              █    █
+█  █  █  ███  ███  ██    █  █  █  █  ██  █  ██        ██
+████  █      █      █  ███    █        █    █          █      █
+██        ██          █            ███  █    █    ██  ██  ███
+█      █  █    █  █      █  █        ███  ██  ███  ██  █  █
+█        ████    ██    █  █    █      █  █  ██  █      ████
+██  █          █  █████  ████              ██            ███
+█████████          █      ██    ███          ██    █  ███
+█████        █  ██        █  █  █        █    █    ████    █
+██      ████      █        █  █        █  █    █      ███    █
+███  ██    █████      ███          ██    ███    █  ██  █
+█    ██  ██  ██    █  █  █  ███    █    ██  █    ███  ██
+█  ██        ██████████  ██  █████    ██  █          █
+█  ██  ████████  ████  ███    █  █    █  █  █    ███
+█  █    █      █    ████    █    ██  █      █            █  ██
+█████████    ██  ████  ███    ██  ██  ███    ████
+█              ██        █  █  ██████  ████  █  █      █  █
+█  █████  █      ██████  █      █    ███  ███    █  ██
+█  █      █  ██  ████  ██      ██  █    █            █    ██
+█  █      █  ████    ████          ███        █  ██  ████
+█  █      █  ██  ██    ██  ██  ███        █    █  █    █  █
+█  █████  ████  █    █            █  ██  █      █  ███  █
+█              ██  ██      █    ██      █  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5034832172&_=1498579167 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5193160227&_=1498579192 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5351488284&_=1498579217 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5516149462&_=1498579243 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5674477518&_=1498579268 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5832805573&_=1498579293 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.5991133628&_=1498579318 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.6149461685&_=1498579343 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.630778974&_=1498579368 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.6466117796&_=1498579393 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.6624445852&_=1498579418 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.6782773908&_=1498579443 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=ocEoBNhENQ==&tip=0&r=949068.6941101963&_=1498579468 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █  █    ████  █  ██  █  ███              █
+█  █████  ██  ██      ████  ██  ██  ████  █████  █
+█  █      █  █                  █    ██  ██  █    █  █      █  █
+█  █      █  █  █    ███  █  █      ███        █  █      █  █
+█  █      █  ██  ████  █  █    ███  █    ███  █      █  █
+█  █████  ███    ██    █  ████    ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ███        ████  ██    █    █████████
+████    █    █    ██    █  ██  ███  █████████    ███
+███        █      ████      ███        █  █    █      ██  ██
+██    ██    █    █    █  ██████          █        ██    █  █
+██      ███  ███  █  █    ██  █  █    █  █        █    █  █
+█  █  ██        █    ████          ██  ███    █    █        █
+███    ███    ██      █    █      █  █  █        ██  █  ███
+███    █      ███  ██          █    █      █  █    █          █
+█  ██      ██      █  ███  ███  █    ███  █  ██        ██
+███      █    █    █        █  ██        █  ██  █    ██  █  █
+██      █  ███              ███  █  █      █  █  █  ███  ██
+██    █  █        ██  ██  █    █  ███  ██  ███  ██  █  █
+█    █  █████  ███      █    █  █  █    ███  ███  ████
+█  ██  █              ██      ████            █      █    ████
+█  ██████        ███      ██      ██    █    ██    █      █
+█  █  █  █  █    ██    █  ███  ████  ██  ██  █  ███  █
+█  █        █      █  ██      ██    ██    █        █  ██      █
+█  █    █      ████  ███  █      ████    ██          ██  █
+█    █  ████        ███  ███      ██  █  █    ██  ██  ██
+█    █          █    ██  ██  █      █  ██        █  ████    █
+█  █  ██  ███  ██  ███  █  ██    █  █  █    █        ███
+█  ██    █        █  ██  ██  █    █    █  ██              ███
+█████████    █    █████  ██  █  █  ██  ███        ██
+█              █          █        █████  ████  █  █      █  █
+█  █████  ██████      █████  ███    █  ███    █  ██
+█  █      █  █    ██      █      █  ███  ██            ██  ██
+█  █      █  █  █  █    ███  ███████        █  ██  ████
+█  █      █  ██  ████  █    ██    ██  █  █  ██            █
+█  █████  ███        ████      █  ███  ███  █  █      █
+█              ██  ██    ██    ███    █  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.6941101963&_=1498579468 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.7105763141&_=1498579494 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.7264091197&_=1498579519 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.7422419253&_=1498579544 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.7580747309&_=1498579569 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.7739075364&_=1498579594 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.789740342&_=1498579619 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8055731476&_=1498579644 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8214059531&_=1498579669 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8372387587&_=1498579694 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8530715642&_=1498579719 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8689043699&_=1498579744 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YeTZCeFF8Q==&tip=0&r=949068.8847371754&_=1498579769 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █  ██  ██████  ██  █  ███              █
+█  █████  ██  █  ██  ████      ███  ████  █████  █
+█  █      █  █        ███    █  █      ██  █    █  █      █  █
+█  █      █  █  █    ███  █  █  █████        █  █      █  █
+█  █      █  ██  █  ████  █            █    ███  █      █  █
+█  █████  ███  █  █    █  █  █  █  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  █████    ███  ███    █    █████████
+████    █    █    ███  ████████    ████████    ███
+█████    █    ██████  ████      ██  █    █      ██  ██
+██  ██      █    █    █      ████          █              ██  █
+██    ██  █  ██    █  █      █  █  █    █  █      █      █  █
+█  ██                  █████  █    ██████    █    ███    █
+████    ██    ██      ██          █      █        ██  █  ███
+███            █      ██  █  █  █    █      █  █    █          █
+█  ███████  █  █  ████    █  █      ██  █  ██        ██
+████    █    █  ██      ██  ███      █  ██  █    ██  █  █
+█        ███        █  █    ███  ███      █  █  █  ███  ██
+██    █  █  █    █  █  █  █      ██  █  ██  ███  ██  █  █
+█    █  ████    ██  ██  █    ██    █    ███  ███  ████
+████  █      █    ██        ██            █  █      █    ████
+█    █████          █  █    ██    ███          ██    █    ██
+███  █  █  ██  ██  ██  ███        █  ██  ██  █  ██    █
+█  █        █  █  █    ██    ██████    █            ██  █  █
+█  █  ██      ████  █  ███  █    ███    ██    █    █  ██
+█    ██████        ███  █  █        █  █  █    ██    █  ██
+█    ██  █    ██  ██  █            █  ██        █  ██        █
+█  █  █  ████  ██  ███      ██    █  █    █  █  ██  ███
+█  █  █                ██  █  ██    █    █  █                ███
+█████████    █    ██  █  ███  ██    ██  ███        ██
+█              █    █    █    █    ████  ████  █  █      █  █
+█  █████  ██    ██    ██████  ███    █  ███    █  ██
+█  █      █  █      █      █    ██  ███  ██            ██  ██
+█  █      █  █  ████  ███        ████        █  ██  ████
+█  █      █  ██  ██    ██    █  █  ██    ██  ██            █
+█  █████  ███          ███  ███  ███  ███  █  █      █
+█              ██  ██████    █  ████  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.8853704877&_=1498579770 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.9012032932&_=1498579795 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.9170360988&_=1498579820 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.9328689043&_=1498579845 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.94870171&_=1498579870 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.9645345155&_=1498579895 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.980367321&_=1498579920 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949068.9962001267&_=1498579945 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949069.0120329323&_=1498579970 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949069.0278657378&_=1498579995 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949069.0436985433&_=1498580020 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949069.059531349&_=1498580045 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=oe98t-YD6Q==&tip=0&r=949069.0759974668&_=1498580071 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██    ██    █████████  █  ███              █
+█  █████  ██  ██  █  █████    ███  ████  █████  █
+█  █      █  █        ██      █  ██████  █    █  █      █  █
+█  █      █  █  █  █    █  █  ████  ██        █  █      █  █
+█  █      █  ██  ██    ██  █    ██    █    ███  █      █  █
+█  █████  ███    ███  █  █  █      ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  █████    ███    ██    █    █████████
+████    █    █    █████  ██  █        ████████    ███
+██          █      ██████████      ██  █                  ██
+██            █  █      █  █  █  ██      █  █            █  █  █
+██      ███  ██    █  ████    █  ██  █  █      ██    █  █
+█  ██  ██      █    ███      █    ██████    █    █  █    █
+███  ██  █    █        █    ██    █  █  █        ██  █  ███
+███  ███    ███  ██    ██  █    ██    █  █    █          █
+█  █      ███    ██  ████  ██  █      ██  █  ██        ██
+███    ██    █████    ███  █      ██  ██  █    ██  █  █
+██      ████      ██      ██    █  █      █  █  █  ███  ██
+█      █  █        ██  █    █      ██  █  ██  ███  ██  █  █
+████  ████    █    ██  █        █  █    ███  ███  ████
+████  █    ██    ████    ██  ██          █      █    ████
+█    █████        ████    ██  ████          ██    █      █
+██    █  █  ██  ██  ██  ███  █    █  ██  █  ██  ███  █
+███        █  █  ███  █    ███  █      █      █    ██  █  █
+██      █    ████    █████      █  ██    ███        ████
+█    ██  ███  █    ███      █        █  █  █  ███  █    ██
+█                █  ███  █  █        █  ██      ██  ██        █
+█  █    █  ███  ██  ██  █████    █  █    █  ███    ███
+█  █  ███      ██  ██  █    █    █        █            █  ███
+█████████  ██    ██    ████  █  █  ██  ███        ██
+█              █  █      █  ██  █████    ███  █  █      █  █
+█  █████  ███  ██        ████  ███    █  ███    █  ██
+█  █      █  █      █          █  █  ███  ██            ██  ██
+█  █      █  █  ███  ████          ████      █  ██  ████
+█  █      █  ██  █    █  █    █  ██  █  █  █  ██            █
+█  █████  ███    ██████        ████  ███  █  █      █
+█              ██  ███    █    ██  ███  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.0759974668&_=1498580071 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.0918302723&_=1498580096 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1076630779&_=1498580121 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1234958834&_=1498580146 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1393286891&_=1498580171 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1551614946&_=1498580196 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1709943002&_=1498580221 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.1868271058&_=1498580246 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.2026599114&_=1498580271 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.2191260292&_=1498580297 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.2349588347&_=1498580322 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.2507916403&_=1498580347 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=AdMWhyAYgQ==&tip=0&r=949069.2666244458&_=1498580372 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █        █████    ██  █  ███              █
+█  █████  ██  █    █  ████  █    ██  ████  █████  █
+█  █      █  █          █      █  █      ██  █    █  █      █  █
+█  █      █  █  █  █        █  █      ███        █  █      █  █
+█  █      █  ██  ██  █  █  █  █        █    ███  █      █  █
+█  █████  ███  ███    █  █████  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  █████    ██  █  ██    █    █████████
+████    █    █    ███  ██████  █    ████████    ███
+███  ██  █    █████    █  ██    █  █  █    █      ██  ██
+██  ████  █  ██    █  ███  ██      █  █            ███  █
+██  █  █  █  ██    █  █  █      █  █  ██    █    ██    █  █
+█  █      █      █    ███      █    ██    ██    █    █        █
+████      █      █      █      █    █  ███        ██  █  ███
+███  ███    █      ██    ██  █    ██    █  █    █          █
+█  ███    ██  █  █  ████    █  █  █  ██  █  ██        ██
+████  ██    █    █        █  ███      █  ██  █    ██  █  █
+█        █  ██      █  █    ███      █      █  █  █  ███  ██
+█  █  █  █  █    █          █    █  █  █  ██  ███  ██  █  █
+████  ███  █  ██  ██  █    ██    █    ███  ███  ████
+█    █  █    █      █          ███    █    █  █      █    ████
+████████        █          ███      █    █    ██    █  ███
+███  █  █  █    ███  █  ███  █    █  ██  ██  █  ███  █
+█  █        ██    █  █        ██            █        █  ██    ██
+██      █    ████      ████  █  █  ██    █  █  █    █    █
+█  ██  ████        ██  ██  █      ██  █        ██        ██
+█      ██      ██  ██  ███  █    █  ██      ██  █    █    █
+█  █        ████  █  ██  █████    █  █        █        ███
+█  █████        █  ██  █    █    █        █                ███
+█████████  █      ██    ████  █  █  ██  ███        ██
+█              █          █    █    ████    ███  █  █      █  █
+█  █████  ██    ██    ███  ██  █        █  ███    █  ██
+█  █      █  █  █  █            ██████  ██            ██  ██
+█  █      █  █  █  █    ███          ████      █  ██  ████
+█  █      █  ██  ███    █    █    █  █    ██  ██            █
+█  █████  ███    █  ████    ██  ███  ███  █  █      █
+█              ██  ██      █    █  ████  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.2666244458&_=1498580372 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.2824572515&_=1498580397 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.298290057&_=1498580422 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3141228625&_=1498580447 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3299556682&_=1498580472 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3457884737&_=1498580497 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3622545915&_=1498580523 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3780873971&_=1498580548 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.3939202026&_=1498580573 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.4097530083&_=1498580598 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.4255858138&_=1498580623 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.4414186194&_=1498580648 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wbBiNgQFsg==&tip=0&r=949069.4572514249&_=1498580673 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██    ██    ███  █    ██  █  ███              █
+█  █████  ██  ███████████████  ████  █████  █
+█  █      █  █          █      █    █    ██  █    █  █      █  █
+█  █      █  █  █  █  █    █  █  ██  ██        █  █      █  █
+█  █      █  ██  █        █  █  ████  █    ███  █      █  █
+█  █████  ███    ███  █  ███  █  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ██  ██    ███    ██    █    █████████
+████    █    █    ███  ████  ██    █████████    ███
+█████    █    █████  █    ██      █    █      ██        ██
+██    ███  █  █      █    █████    ██  █            █  █  █
+██      █  █  █  █  █  █      █  █  █    █  █      █  █  █  █
+█  █  ██              ███  █  █    ███  ██    █    ███    █
+██████  █      █      ██  █      █  █  █        ██  █  ███
+█████  █    █      ██    █    █    ██    █  █    █          █
+█  ███  ███    ██  ████  ██  █      ██  █  ██        ██
+████  ██      █  ██    █████      ██  ██  █    ██  █  █
+██      █  █      ███      ███  █  █      █  █  █  ███  ██
+█      █  █        ██        █    █    ██  ██  ███  ██  █  █
+██  █  ███      █    ██  █        █  █    ███  ███  ████
+████  █            █  ██    ██  ██      █  █      █    ████
+██  ██████        █  █    █████  █    █    ██    █  █  █
+██    █  █        █  █  █  ████    ██  ██  █    █  ███  █
+█            ███  █    ██    ██      █    █            ██    ██
+█        █      ████      █  █      ████    ███  ██  ████
+█  ██    ███  █    ███  █  █        █  █  █  ███  █    ██
+█    █    █    █    ██  ███        █  ██        █    ██      █
+█  █  ██  ██████  ███  ████    █  █  ██  ███    ███
+█  ███          █    ██      █      █        █                ███
+█████████    █    ████████  ███  ██  ███        ██
+█              █    █    █    █    ████  ████  █  █      █  █
+█  █████  ██  ███          ███  ██      █  ███    █  ██
+█  █      █  █  ███      █      █  ███  ██            ██  ██
+█  █      █  █  ██  █  ███  █  █  ████      █  ██  ████
+█  █      █  ██  █    ███    █        █    ██  ██            █
+█  █████  ███  ██    ███  ███████  ███  █  █      █
+█              ██  █        █    ██  ███  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.4572514249&_=1498580673 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.4730842306&_=1498580698 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.4895503484&_=1498580724 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.5053831539&_=1498580749 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.5212159595&_=1498580774 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.537048765&_=1498580799 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.5528815706&_=1498580824 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.5687143762&_=1498580849 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.5845471817&_=1498580874 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.6003799874&_=1498580899 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.6162127929&_=1498580924 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.6320455985&_=1498580949 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=wanG9hy0dQ==&tip=0&r=949069.647878404&_=1498580974 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=1219371306 HTTP/1.1" 200 28
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?appid=wx782c26e4c19acffb&fun=new HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                  ███████████████████████████████████████
+█              ██  █        ██████  ██  █  ███              █
+█  █████  ██  ██  ████████  ███  ████  █████  █
+█  █      █  █      ███      █      ████  █    █  █      █  █
+█  █      █  █  █  █    █  █  ███████        █  █      █  █
+█  █      █  ██  ██  █  █  █        █  █    ███  █      █  █
+█  █████  ███  █  █    █  ███  █  ██  ███  █████  █
+█              █  █  █  █  █  █  █  █  █  █  █  █              █
+██████████  ███        ██        █    █    █████████
+████    █    █      ████  ████  █    ████████    ███
+██          █      ████  █  ███            █                  ██
+██  █  ██  █  █      █  █  ████    █    █            ███  █
+██  █  █  █  ██    █  ██  █    █  █  ██    █    █      █  █
+█  █████      ██  █████        ██    ██    █    █        █
+███  ████      █      ██  █      █  ███        ██  █  ███
+███  █        █      ██          █    ██    █  █    █          █
+█  █        ██  █  █  ██    ███  █    ███  █  ██        ██
+████  ██    ██  █      ██    ██      █  ██  █    ██  █  █
+██      ███      ████    ████  ██      █  █  █  ███  ██
+█      █  █        █    ██  █        █  █  ██  ███  ██  █  █
+████  █████  █  ███  █            █    ███  ███  ████
+█    █  █            █          ████  █        █      █    ████
+██  ██████          █      ██  ████    █    ██    █  █  █
+█  █  █  █  █    █  ███  ███        █  ██  ██  █  ███  █
+█  █        ██    ██          ██  █  █    █        █  ██      █
+█        █      ███        █  █      ████    ██          █    █
+█  ██  ████  █    ███████      ██  █        ██  █    ██
+█    ███      █  ███  ████      █  ██      ██  ███      █
+█  █  █  ████    █  ████    ██    █  █        ██      ███
+█  ████        █    ██    █  █    █    █  █            █████
+█████████    █    ██  █████  ██    ██  ███        ██
+█              █    █    █    ███████    ███  █  █      █  █
+█  █████  ██    ██      ██  ██  █  █    █  ███    █  ██
+█  █      █  █      ██        ███  ███  ██            ██  ██
+█  █      █  █  █  █    ███  ██  █████      █  ██  ████
+█  █      █  ██  █      ██    ███  ██  █  █  ██            █
+█  █████  ███  ███████  █  █  ███  ███  █  █      █
+█              ██  █  ████    ██  ███  ███  █  ██  ██  █
+███████████████████████████████████████
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Qf0EIQIV3w==&tip=0&r=949069.6485117163&_=1498580975 HTTP/1.1" 200 16
