@@ -1,0 +1,34 @@
+█DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 86812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=TBHZcn4mkn9yxQSf&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a&pass_ticket=fiFx7wmyM04UrzV8KjrKuXy2G%2BVwtesezGQcP7BLTJbjo6XMN0cK7i0cDwe8UEdL HTTP/1.1" 200 371
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): webpush.wx2.qq.com
+DEBUG:wxpy.api.bot:new thread: _listen
+INFO:wxpy.api.bot:<Bot: Yune1>: started
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498660260&seq=0&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a HTTP/1.1" 200 25377
+INFO:wxpy.api.bot:<Bot: Yune1>: updating friends
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498660262&seq=0&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a HTTP/1.1" 200 25377
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498660265&seq=0&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a HTTP/1.1" 200 25377
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498660267&seq=0&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a HTTP/1.1" 200 25377
+INFO:wxpy.api.bot:<Bot: Yune1>: updating groups
+DEBUG:urllib3.connectionpool:https://webpush.wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/synccheck?r=1498660260574&skey=%40crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a&sid=TBHZcn4mkn9yxQSf&uin=1219371306&deviceid=e204288562297147&synckey=1_658310096%7C2_658310559%7C3_658310469%7C11_658310557%7C13_658171864%7C201_1498660073%7C203_1498660022%7C1000_1498643821%7C1001_1498643851&_=1498660260574 HTTP/1.1" 200 43
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): wx2.qq.com
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=TBHZcn4mkn9yxQSf&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a&pass_ticket=fiFx7wmyM04UrzV8KjrKuXy2G%2BVwtesezGQcP7BLTJbjo6XMN0cK7i0cDwe8UEdL HTTP/1.1" 200 740
+DEBUG:wxpy.api.bot:<Bot: Yune1>: new message (func: None):
+↪ 开发测试 : (System)
+DEBUG:urllib3.connectionpool:https://wx2.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1498660268&seq=0&skey=@crypt_ff49acb4_cf0e3b8b36f81410650de6fabd58f44a HTTP/1.1" 200 25377
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:__main__:new thread: heartbeat
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: new_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: exist_friends (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: manually_added (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_other_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: wxpy_group (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: reply_admins (Enabled, Async)>
+INFO:wxpy.api.messages.message_config:<MessageConfig: Yune1: welcome (Enabled, Async)>
