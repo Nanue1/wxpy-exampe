@@ -7,6 +7,7 @@
 
 
 pip install -U wxpy
+pip install pillow
 
 # TODO list
 
