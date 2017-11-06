@@ -10,7 +10,7 @@ cache_path = './log/cache_bot.pkl'
 puid_path = './log/puid_bot.pkl'
 
 # Bot 对象初始化时的 console_qr 参数值
-console_qr = 1
+console_qr = 2
 
 # 入群口令
 group_code = u'嘿哈'

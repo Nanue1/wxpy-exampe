@@ -16,11 +16,11 @@ class Messages(object):
         pass
 
     # 判断消息是否为支持回复的消息类型
-    def supported_msg_type(self, msg):
+    def supported_msg_type(self,msg):
         supported = (TEXT,)
         if msg.type in supported:
             return True
 
     # 验证入群口令
-    def valid_code(self, msg):
+    def valid_code(self,msg):
         return group_code in msg.text.lower()

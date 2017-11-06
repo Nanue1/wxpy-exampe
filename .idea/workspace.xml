@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ba6c01-f4e6-4f8c-8629-26891b26abb2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/cache_bot.pkl" afterPath="$PROJECT_DIR$/log/cache_bot.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages.py" afterPath="$PROJECT_DIR$/messages.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setting.py" afterPath="$PROJECT_DIR$/setting.py" />
     </list>
@@ -32,12 +34,12 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
+            <state relative-caret-position="588">
               <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="e#79#90#0" expanded="true" />
-                <marker date="1509989208000" expanded="true" signature="1182:1386" ph="..." />
-                <marker date="1509989208000" expanded="true" signature="1489:1866" ph="..." />
+                <marker date="1509993141000" expanded="true" signature="1182:1386" ph="..." />
+                <marker date="1509993141000" expanded="true" signature="1489:1866" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/messages.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="e#82#100#0" expanded="true" />
               </folding>
@@ -151,8 +153,8 @@
         <option value="$PROJECT_DIR$/friends.py" />
         <option value="$PROJECT_DIR$/groups.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/messages.py" />
         <option value="$PROJECT_DIR$/setting.py" />
+        <option value="$PROJECT_DIR$/messages.py" />
         <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
@@ -364,12 +366,12 @@
       <workItem from="1509780939438" duration="75000" />
       <workItem from="1509781359771" duration="245000" />
       <workItem from="1509781621581" duration="195000" />
-      <workItem from="1509783470329" duration="55421000" />
+      <workItem from="1509783470329" duration="57112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57555000" />
+    <option name="totallyTimeSpent" value="59246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
@@ -610,16 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#82#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/friends.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
@@ -638,14 +630,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#82#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
+        <state relative-caret-position="588">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#79#90#0" expanded="true" />
-            <marker date="1509989208000" expanded="true" signature="1182:1386" ph="..." />
-            <marker date="1509989208000" expanded="true" signature="1489:1866" ph="..." />
+            <marker date="1509993141000" expanded="true" signature="1182:1386" ph="..." />
+            <marker date="1509993141000" expanded="true" signature="1489:1866" ph="..." />
           </folding>
         </state>
       </provider>

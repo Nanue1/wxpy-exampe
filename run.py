@@ -30,7 +30,7 @@ def tuling_reply(msg):
     if not invite_friend(msg):
         # 特定消息回复
         if not key_word_reply(msg):
-            time.sleep(random.random(0.5, 1))
+            time.sleep(random.uniform(0.5,1))
             tuling.do_reply(msg)
 
 
