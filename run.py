@@ -2,32 +2,24 @@
 # -*- coding: utf-8 -*-
 # Created by manue1 on 2017/11/4
 import time
+import random
 import traceback
-
 from wxpy import *
-from setting import *
 from login import Login
-
+from setting import *
 from friends import Friends
 from groups import Groups
-
 from messages import Messages
-# from messages import Messages
-
-# 测试初始化机器人
 from utils.times import Time
 
-bot = Login().bot
 # 初始化聊天机器人
-tuling = Tuling(api_key='61eea024ed154d8f9d8a33e98547057a')
+bot = Login().bot
+
+tuling = Tuling(api_key=api_key)
 
 friends_utils = Friends(bot)
 groups_utils = Groups(bot)
 messages_utils = Messages()
-
-
-# new_group = Groups(bot).create_group(friends,'20171104')
-# print new_group
 
 
 # 注意消息顺序问题
@@ -36,8 +28,9 @@ messages_utils = Messages()
 def tuling_reply(msg):
     # 好友回复口令发送邀请
     if not invite_friend(msg):
-        # 特点消息回复
+        # 特定消息回复
         if not key_word_reply(msg):
+            time.sleep(random.random(0.5, 1))
             tuling.do_reply(msg)
 
 
