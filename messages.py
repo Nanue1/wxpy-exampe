@@ -5,6 +5,7 @@ from wxpy import *
 
 from setting import *
 from utils.times import Time
+from groups import Groups
 
 
 class Messages(object):
@@ -22,7 +23,7 @@ class Messages(object):
         ignored = (SYSTEM,NOTE , FRIENDS)
 
         fallback_replies = {
-            RECORDING : u'🙉',
+            RECORDING: u'🙉',
             PICTURE: u'🙈',
             VIDEO: u'🙈',
         }
@@ -35,4 +36,19 @@ class Messages(object):
     @staticmethod
     def valid_code(msg):
         return group_code in msg.text.lower()
+
+    # 根据关键字回复
+    def key_word_reply(msg):
+        for reply, keywords in keyword_replies.items():
+            for keyword in keywords:
+                if keyword in msg.text.lower():
+                    msg.reply(reply)
+                    return True
+
+    # 好友输入口令 发送邀请
+    def invite_friend(self,msg,bot):
+        if self.supported_msg_type(msg):
+            if self.valid_code(msg):
+                Groups(bot).invite_group(msg.sender)
+                return True
 

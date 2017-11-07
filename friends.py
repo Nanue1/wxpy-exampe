@@ -87,3 +87,10 @@ class Friends(object):
         for admin_name in admin_mangers_name:
             admin_puids_list.append(self._search_friend(admin_name).puid)
         return admin_puids_list
+
+    #获取管理员
+    def admin_friends(self):
+        admin_friends= []
+        for admin_name in admin_mangers_name:
+            admin_friends.append(self._search_friend(admin_name))
+        return admin_friends
