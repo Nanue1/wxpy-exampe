@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-   
 # Created by manue1 on 2017/11/4
+from collections import Counter
+
 from wxpy import ensure_one
 
 from setting import *
@@ -15,6 +17,9 @@ class Groups(object):
     def __init__(self, bot):
         self.bot = bot
         self.groups = self.bot.groups(update=True)
+
+        # 计算每个用户被邀请的次数
+        self.invite_counter = Counter()
 
     # 创建新群
     def create_group(self, users, topic):
@@ -41,7 +46,7 @@ class Groups(object):
     #     return groups
 
     # 获取admin groups
-    def _admin_groups(self):
+    def admin_groups(self):
         groups = []
         for group_name in groups_name:
             groups.append(self._search_group(group_name))
@@ -50,7 +55,7 @@ class Groups(object):
 
     # 自动选择未满的群
     def _min_group(self):
-        groups = self._admin_groups()
+        groups = self.admin_groups()
         groups.sort(key=len, reverse=True)
         for _group in groups:
             if len(_group) < 30:
@@ -60,17 +65,19 @@ class Groups(object):
 
     # 邀请入群
     def invite_group(self, user):
-        groups = self._admin_groups()
+        groups = self.admin_groups()
         joined = list()
         for group in groups:
             if user in group:
                 joined.append(group)
         if joined:
             joined_nick_names = '\n'.join(map(lambda x: x.nick_name, joined))
-            # logger.info('{} is already in\n{}'.format(user, joined_nick_names))
             user.send(u'你已加入了\n{}'.format(joined_nick_names))
         else:
             group = self._min_group()
             user.send(u'验证通过 [嘿哈]')
             group.add_members(user, use_invitation=True)
-
+            if self.invite_counter.get(user, 0) < invite_times_max:
+                self.invite_counter.update([user])
+            else:
+                user.send(u'你的受邀次数已达最大限制 😷')
