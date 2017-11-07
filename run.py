@@ -83,7 +83,7 @@ def auto_accept_friends(msg):
 #  在群中回复被 @ 的消息
 @bot.register(groups_utils.groups, TEXT)
 def reply_other_group(msg):
-    if msg.chat not in groups_utils.groups and msg.is_at:
+    if msg.chat in groups_utils.groups and msg.is_at:
         if messages_utils.supported_msg_type(msg, reply_unsupported=True):
             tuling.do_reply(msg)
 
