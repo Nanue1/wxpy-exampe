@@ -22,14 +22,14 @@ class Messages(object):
         ignored = (SYSTEM,NOTE , FRIENDS)
 
         fallback_replies = {
-            RECORDING : '🙉',
-            PICTURE: '🙈',
-            VIDEO: '🙈',
+            RECORDING : u'🙉',
+            PICTURE: u'🙈',
+            VIDEO: u'🙈',
         }
         if msg.type in supported:
             return True
         elif reply_unsupported and (msg.type not in ignored):
-            msg.reply(fallback_replies.get(msg.type, '🐒'))
+            msg.reply(fallback_replies.get(msg.type,u'🐒'))
 
     # 验证入群口令
     @staticmethod
