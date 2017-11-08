@@ -40,11 +40,10 @@ invite_times_max = 2
 # 管理员，可为多个，用于执行管理
 # 首个管理员为"系统管理员"，可接收异常日志和执行服务端操作
 # 其他管理员仅执行微信群管理
-admin_mangers_name = ['Yune1', 'Funy', 'manue1']
+admin_mangers_name = [u'Yune1', u'Funy', u'manue1']
 
 # 管理群
-# 仅为一个，用于接收心跳上报等次要信息
-admin_group_name = '开发测试'
+admin_group_name = u'开发测试'
 
 # 新人入群的欢迎语
 welcome_text = u'''

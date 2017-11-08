@@ -5,9 +5,11 @@
 1. 修改puid更新问题,采用nick_name管理
 2. 暂停功能，修复wechat_bot开启后，和朋友聊天的时候总感觉三人聊天
 
+>pip install -U wxpy
 
-pip install -U wxpy
-pip install pillow
+>pip install pillow
+
+>pip install psutil
 
 # TODO list
 
