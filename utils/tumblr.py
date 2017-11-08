@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-   
 # Created by manue1 on 2017/11/8
-import json
 import os
 from setting import *
 from groups import Groups
@@ -20,13 +19,7 @@ class Tumblr(object):
             i += 1
             if i < 50:
                 pic_path = tumblr_picture_path + pic
-                self.target.send(u'share pic %s ' % i)
-                time.sleep(random.randrange(1,3))
-                fd = self.target.send_image(path=pic_path,media=random.randrange(10000,20000))
-                with open(tumblr_pic_media_id_path,'a') as f:
-                    f.write(fd.fileDir +'\t'+fd.mediaId + '\n')
-                # cmd = "rm -f %s" % pic_path
-                # os.system(cmd)
+                self.target.send_image(path=pic_path,media_id=random.randrange(10000,20000))
                 time.sleep(random.randrange(3,5))
             else:
                 break

@@ -34,12 +34,12 @@ class Commands(object):
             's': self._status_text,
             'r': self._restart,
             'l': self._latency,
-            'p': Tumblr(bot).send_tumblr_picture(),
+            'p': self._send_tumblr_picture,
             'v': self._send_tumblr_video,
         }
 
     def _send_tumblr_picture(self):
-        pass
+        Tumblr(self.bot).send_tumblr_picture(),
 
     def _send_tumblr_video(self):
         pass
