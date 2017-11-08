@@ -14,6 +14,7 @@ from groups import Groups
 class Commands(object):
     '''
     1. 远程重启
+    2.TODO定时任务
     '''
 
     def __init__(self, bot):
@@ -24,7 +25,7 @@ class Commands(object):
         # 远程命令 (单独发给机器人的消息)
         self.remote_orders = {
             'g': self._update_groups,
-            's': self.status_text,
+            's': self._status_text,
             'r': self._restart,
             'l': self._latency,
         }
@@ -92,26 +93,12 @@ class Commands(object):
             messages = self.bot.messages
         else:
             messages = list()
-        return '[now] {now:%H:%M:%S}\n[uptime] {uptime}\n[memory] {memory}\n[messages] {messages}'.format(
+        yield '[now] {now:%H:%M:%S}\n[uptime] {uptime}\n[memory] {memory}\n[messages] {messages}'.format(
             now=datetime.datetime.now(),
             uptime=str(uptime).split('.')[0],
             memory='{:.2f} MB'.format(memory_usage / 1024 ** 2),
             messages=len(messages)
         )
-    def status_text(self):
-        yield self._status_text()
-
-    # 定时报告进程状态
-    def heartbeat_status(self):
-        while self.bot.alive:
-            time.sleep(600)
-            # noinspection PyBroadException
-            try:
-                self.send_iter(self.groups_utils.admin_group(), self.status_text())
-            except:
-                # logger
-                yield 'heartbeat status error'
-                pass
 
     def server_mgmt(self, msg):
         """
@@ -125,6 +112,7 @@ class Commands(object):
             order = self.remote_orders.get(msg.text.strip())
             if order:
                 self._send_iter(msg.chat, order())
+                #TODO
             elif msg.text.startswith(u'!'):
                 command = msg.text[1:]
                 self._send_iter(msg.chat, self._remote_shell(command))
