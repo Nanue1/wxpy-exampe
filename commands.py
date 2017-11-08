@@ -30,8 +30,14 @@ class Commands(object):
             's': self._status_text,
             'r': self._restart,
             'l': self._latency,
+            'p':self._send_tumblr_picture,
+            'v':self._send_tumblr_video,
         }
 
+    def _send_tumblr_picture(self):
+        pass
+    def _send_tumblr_video(self):
+        pass
     def _from_admins(self, msg):
         """
         判断 msg 的发送者是否为管理员
@@ -61,7 +67,8 @@ class Commands(object):
             universal_newlines=True
         )
         if r.stdout:
-            yield r.stdout
+            yield ' '.join(r.stdout.readlines())
+
         else:
             yield '[OK]'
 
@@ -76,7 +83,7 @@ class Commands(object):
     def _update_groups(self):
         yield 'updating groups...'
         for _group in self.groups_utils.user_groups():
-            _group.update_group()
+            _group.update_group( members_details=True)
             yield '{}: {}'.format(_group.name, len(_group))
 
     def _restart(self):
@@ -90,7 +97,6 @@ class Commands(object):
     def _status_text(self):
         uptime = datetime.datetime.now() - datetime.datetime.fromtimestamp(self.process.create_time())
         memory_usage = self.process.memory_info().rss
-
         if globals().get('bot'):
             messages = self.bot.messages
         else:
@@ -121,3 +127,13 @@ class Commands(object):
                 self._send_iter(msg.chat, self._remote_shell(command))
             else:
                 self._send_iter(msg.chat, self._remote_eval(msg.text))
+
+                # 定时报告进程状态
+    def heartbeat(self):
+        while self.bot.alive:
+            time.sleep(600)
+            # noinspection PyBroadException
+            try:
+                self._send_iter(self.groups_utils.admin_group(), self._status_text())
+            except:
+                self.logger.exception('failed to report heartbeat:\n')

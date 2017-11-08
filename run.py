@@ -5,6 +5,7 @@ import random
 import time
 
 from wxpy import *
+from wxpy.utils import start_new_thread
 
 from friends import Friends
 from groups import Groups
@@ -89,5 +90,7 @@ def reply_admins(msg):
         if isinstance(msg.chat, User):
             if messages_utils.supported_msg_type(msg, reply_unsupported=True):
                 tuling.do_reply(msg)
+
+start_new_thread(commands_utils.heartbeat)
 
 bot.join()
