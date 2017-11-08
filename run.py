@@ -52,7 +52,7 @@ def manually_added(msg):
     if u'现在可以开始聊天了' in msg.text:
         # 延迟发送更容易引起注意
         time.sleep(2)
-        for group in groups_utils.admin_groups():
+        for group in groups_utils.user_groups():
             if msg.chat in group:
                 break
             else:
@@ -140,7 +140,7 @@ def send_iter(receiver, iterable):
 
 def update_groups():
     yield 'updating groups...'
-    for _group in groups_utils.admin_groups():
+    for _group in groups_utils.user_groups():
         _group.update()
         yield '{}: {}'.format(_group.name, len(_group))
 
@@ -169,7 +169,7 @@ def heartbeat():
         time.sleep(600)
         # noinspection PyBroadException
         try:
-            send_iter(groups_utils.admin_groups(), status_text())
+            send_iter(groups_utils.user_groups(), status_text())
         except:
             # logger
             pass
@@ -236,7 +236,7 @@ def server_mgmt(msg):
         send_iter(msg.chat, remote_eval(msg.text))
 
 
-@bot.register(groups_utils.admin_groups(), msg_types=TEXT, except_self=False)
+@bot.register(groups_utils.admin_group(), msg_types=TEXT, except_self=False)
 def reply_admins(msg):
     """
     响应远程管理员

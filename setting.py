@@ -44,9 +44,7 @@ admin_mangers_name = ['Yune1', 'Funy', 'manue1']
 
 # 管理群
 # 仅为一个，用于接收心跳上报等次要信息
-# 开发测试 admins
 admin_group_name = '开发测试'
-
 
 # 新人入群的欢迎语
 welcome_text = u'''

@@ -45,17 +45,21 @@ class Groups(object):
     #         groups.append(ensure_one(self.groups.search(puid=puid)))
     #     return groups
 
-    # 获取admin groups
-    def admin_groups(self):
+    # 获取user groups
+    def user_groups(self):
         groups = []
         for group_name in groups_name:
             groups.append(self._search_group(group_name))
 
         return groups
 
+    # 获取管理群
+    def admin_group(self):
+        return self._search_group(admin_group_name)
+
     # 自动选择未满的群
     def _min_group(self):
-        groups = self.admin_groups()
+        groups = self.user_groups()
         groups.sort(key=len, reverse=True)
         for _group in groups:
             if len(_group) < 30:
@@ -65,7 +69,7 @@ class Groups(object):
 
     # 邀请入群
     def invite_group(self, user):
-        groups = self.admin_groups()
+        groups = self.user_groups()
         joined = list()
         for group in groups:
             if user in group:
