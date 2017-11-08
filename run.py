@@ -64,13 +64,13 @@ def auto_accept_friends(msg):
 
 #  在群中回复被 @ 的消息
 @bot.register(groups_utils.groups, TEXT)
-def reply_other_group(msg):
+def reply_group(msg):
     if msg.chat in groups_utils.groups and msg.is_at:
         if messages_utils.supported_msg_type(msg, reply_unsupported=True):
             tuling.do_reply(msg)
 
 # 心跳报告状态信息
-start_new_thread(commands_utils.heartbeat_status())
+# start_new_thread(commands_utils.heartbeat_status())
 
 #远程管理组执行命令
 @bot.register(groups_utils.admin_group(), msg_types=TEXT, except_self=False)

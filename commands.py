@@ -6,13 +6,10 @@ import os
 import subprocess
 import sys
 from pprint import pformat
-
 import psutil
 from wxpy import Group
-
 from friends import Friends
 from groups import Groups
-
 
 class Commands(object):
     '''
@@ -27,7 +24,7 @@ class Commands(object):
         # 远程命令 (单独发给机器人的消息)
         self.remote_orders = {
             'g': self._update_groups,
-            's': self._status_text,
+            's': self.status_text,
             'r': self._restart,
             'l': self._latency,
         }
@@ -39,18 +36,6 @@ class Commands(object):
         from_user = msg.member if isinstance(msg.chat, Group) else msg.sender
         return from_user in self.friends_utils.admin_friends()
 
-    # def _admin_auth(self, func):
-    #     """
-    #     装饰器: 验证函数的第 1 个参数 msg 是否来自 admins
-    #     """
-    #     @wraps(func)
-    #     def wrapped(*args, **kwargs):
-    #         msg = args[0]
-    #         if self._from_admin(msg):
-    #             return func(*args, **kwargs)
-    #         else:
-    #             raise ValueError('{} is not an admin!'.format(msg))
-    #     return wrapped
     @staticmethod
     def _send_iter(receiver, iterable):
         """
@@ -107,12 +92,14 @@ class Commands(object):
             messages = self.bot.messages
         else:
             messages = list()
-        yield '[now] {now:%H:%M:%S}\n[uptime] {uptime}\n[memory] {memory}\n[messages] {messages}'.format(
+        return '[now] {now:%H:%M:%S}\n[uptime] {uptime}\n[memory] {memory}\n[messages] {messages}'.format(
             now=datetime.datetime.now(),
             uptime=str(uptime).split('.')[0],
             memory='{:.2f} MB'.format(memory_usage / 1024 ** 2),
             messages=len(messages)
         )
+    def status_text(self):
+        yield self._status_text()
 
     # 定时报告进程状态
     def heartbeat_status(self):
@@ -120,13 +107,12 @@ class Commands(object):
             time.sleep(600)
             # noinspection PyBroadException
             try:
-                self.send_iter(self.groups_utils.admin_group(), self._status_text())
+                self.send_iter(self.groups_utils.admin_group(), self.status_text())
             except:
                 # logger
                 yield 'heartbeat status error'
                 pass
 
-    # @_admin_auth
     def server_mgmt(self, msg):
         """
         服务器管理:
@@ -139,7 +125,7 @@ class Commands(object):
             order = self.remote_orders.get(msg.text.strip())
             if order:
                 self._send_iter(msg.chat, order())
-            elif msg.text.startswith('!'):
+            elif msg.text.startswith(u'!'):
                 command = msg.text[1:]
                 self._send_iter(msg.chat, self._remote_shell(command))
             else:
