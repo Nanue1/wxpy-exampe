@@ -17,7 +17,7 @@ from logger import Logger
 
 # 初始化聊天机器人
 bot = Login().bot
-
+#初始化图灵机器人
 tuling = Tuling(api_key=api_key)
 
 friends_utils = Friends(bot)
@@ -25,7 +25,6 @@ groups_utils = Groups(bot)
 messages_utils = Messages()
 commands_utils = Commands(bot)
 logger = Logger(bot).init_logger()
-
 
 # 机器人自动回复好友消息
 @bot.register(except_self=False)

@@ -54,7 +54,7 @@ class Commands(object):
 
     def _remote_shell(self,command):
         self.logger.info('executing remote shell cmd:\n{}'.format(command))
-        r = subprocess.run(
+        r = subprocess.Popen(
             command, shell=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
@@ -76,12 +76,12 @@ class Commands(object):
     def _update_groups(self):
         yield 'updating groups...'
         for _group in self.groups_utils.user_groups():
-            _group.update()
+            _group.update_group()
             yield '{}: {}'.format(_group.name, len(_group))
 
     def _restart(self):
         yield 'restarting bot...'
-        self.bot.core.dump()
+        self.bot.dump_login_status()
         os.execv(sys.executable, [sys.executable] + sys.argv)
 
     def _latency(self):
