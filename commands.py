@@ -10,6 +10,7 @@ import psutil
 from wxpy import Group
 from friends import Friends
 from groups import Groups
+from logger import  Logger
 
 class Commands(object):
     '''
@@ -19,6 +20,7 @@ class Commands(object):
 
     def __init__(self, bot):
         self.bot = bot
+        self.logger = Logger(bot).init_logger()
         self.process = psutil.Process()
         self.friends_utils = Friends(bot)
         self.groups_utils = Groups(bot)
@@ -50,8 +52,8 @@ class Commands(object):
         for msg in iterable:
             receiver.send(msg)
 
-    @staticmethod
-    def _remote_shell(command):
+    def _remote_shell(self,command):
+        self.logger.info('executing remote shell cmd:\n{}'.format(command))
         r = subprocess.run(
             command, shell=True,
             stdout=subprocess.PIPE,
@@ -111,6 +113,7 @@ class Commands(object):
         if self._from_admins(msg):
             order = self.remote_orders.get(msg.text.strip())
             if order:
+                self.logger.info('executing remote order: {}'.format(order.__name__))
                 self._send_iter(msg.chat, order())
                 #TODO
             elif msg.text.startswith(u'!'):

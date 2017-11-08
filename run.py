@@ -5,7 +5,6 @@ import random
 import time
 
 from wxpy import *
-from wxpy.utils import start_new_thread
 
 from friends import Friends
 from groups import Groups
@@ -14,6 +13,7 @@ from login import Login
 from messages import Messages
 from setting import *
 from utils.times import Time
+from logger import Logger
 
 # 初始化聊天机器人
 bot = Login().bot
@@ -24,6 +24,7 @@ friends_utils = Friends(bot)
 groups_utils = Groups(bot)
 messages_utils = Messages()
 commands_utils = Commands(bot)
+logger = Logger(bot).init_logger()
 
 
 # 机器人自动回复好友消息
