@@ -48,6 +48,12 @@ admin_mangers_name = [u'Yune1', u'Funy', u'manue1']
 # 管理群
 admin_group_name = u'开发测试'
 
+#tumblr data path
+tumblr_picture_path = ''
+tumblr_video_path = ''
+tumblr_target_group = u'豆瓣灌水@_@'
+
+
 # 新人入群的欢迎语
 welcome_text = u'''
                🎉 欢迎 @{} 的加入!

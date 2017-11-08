@@ -27,14 +27,14 @@ class Groups(object):
         return new_group
 
     # 关键字查找groups
-    def _search_group(self, key_word):
+    def search_group(self, key_word):
         return ensure_one(self.groups.search(keywords=key_word))
 
     # 获取管理群组的quid
     # def _group_puids(self):
     #     group_puids_list = []
     #     for group_name in groups_name:
-    #         group_puids_list.append(self._search_group(group_name).puid)
+    #         group_puids_list.append(self.search_group(group_name).puid)
     #     return group_puids_list
 
     # 通过puid 获取groups
@@ -49,13 +49,13 @@ class Groups(object):
     def user_groups(self):
         groups = []
         for group_name in groups_name:
-            groups.append(self._search_group(group_name))
+            groups.append(self.search_group(group_name))
 
         return groups
 
     # 获取管理群
     def admin_group(self):
-        return self._search_group(admin_group_name)
+        return self.search_group(admin_group_name)
 
     # 自动选择未满的群
     def _min_group(self):

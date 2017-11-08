@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # Created by manue1 on 2017/11/4
 import datetime
+import time
 import os
 import subprocess
 import sys
@@ -10,7 +11,9 @@ import psutil
 from wxpy import Group
 from friends import Friends
 from groups import Groups
-from logger import  Logger
+from logger import Logger
+from utils.tumblr import Tumblr
+
 
 class Commands(object):
     '''
@@ -24,20 +27,23 @@ class Commands(object):
         self.process = psutil.Process()
         self.friends_utils = Friends(bot)
         self.groups_utils = Groups(bot)
+
         # 远程命令 (单独发给机器人的消息)
         self.remote_orders = {
             'g': self._update_groups,
             's': self._status_text,
             'r': self._restart,
             'l': self._latency,
-            'p':self._send_tumblr_picture,
-            'v':self._send_tumblr_video,
+            'p': Tumblr(bot).send_tumblr_picture(),
+            'v': self._send_tumblr_video,
         }
 
     def _send_tumblr_picture(self):
         pass
+
     def _send_tumblr_video(self):
         pass
+
     def _from_admins(self, msg):
         """
         判断 msg 的发送者是否为管理员
@@ -58,7 +64,7 @@ class Commands(object):
         for msg in iterable:
             receiver.send(msg)
 
-    def _remote_shell(self,command):
+    def _remote_shell(self, command):
         self.logger.info('executing remote shell cmd:\n{}'.format(command))
         r = subprocess.Popen(
             command, shell=True,
@@ -83,7 +89,7 @@ class Commands(object):
     def _update_groups(self):
         yield 'updating groups...'
         for _group in self.groups_utils.user_groups():
-            _group.update_group( members_details=True)
+            _group.update_group(members_details=True)
             yield '{}: {}'.format(_group.name, len(_group))
 
     def _restart(self):
@@ -121,7 +127,7 @@ class Commands(object):
             if order:
                 self.logger.info('executing remote order: {}'.format(order.__name__))
                 self._send_iter(msg.chat, order())
-                #TODO
+                # TODO
             elif msg.text.startswith(u'!'):
                 command = msg.text[1:]
                 self._send_iter(msg.chat, self._remote_shell(command))
@@ -129,6 +135,7 @@ class Commands(object):
                 self._send_iter(msg.chat, self._remote_eval(msg.text))
 
                 # 定时报告进程状态
+
     def heartbeat(self):
         while self.bot.alive:
             time.sleep(600)

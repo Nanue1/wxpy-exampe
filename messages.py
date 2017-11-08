@@ -4,7 +4,6 @@
 from wxpy import *
 
 from setting import *
-from utils.times import Time
 from groups import Groups
 
 
@@ -20,7 +19,7 @@ class Messages(object):
     @staticmethod
     def supported_msg_type(msg, reply_unsupported=False):
         supported = (TEXT,)
-        ignored = (SYSTEM,NOTE , FRIENDS)
+        ignored = (SYSTEM,NOTE, FRIENDS)
 
         fallback_replies = {
             RECORDING: u'🙉',
