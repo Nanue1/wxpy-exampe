@@ -5,6 +5,7 @@ import json
 import os
 from setting import *
 from groups import Groups
+import random
 
 import time
 
@@ -21,12 +22,12 @@ class Tumblr(object):
             if i < 50:
                 pic_path = tumblr_picture_path + pic
                 self.target.send(u'share pic %s ' % i)
-                time.sleep(5)
+                time.sleep(random.randrange(1,3))
                 file_data = self.target.send_image(pic_path)
                 with open(tumblr_pic_media_id_path,'a') as f:
                     f.write(json.dumps(file_data + '\n'))
-                cmd = "rm -f %s" % pic_path
-                os.system(cmd)
-                time.sleep(5)
+                # cmd = "rm -f %s" % pic_path
+                # os.system(cmd)
+                time.sleep(random.randrange(3,5))
             else:
                 break
