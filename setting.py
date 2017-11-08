@@ -49,9 +49,10 @@ admin_mangers_name = [u'Yune1', u'Funy', u'manue1']
 admin_group_name = u'开发测试'
 
 #tumblr data path
-tumblr_picture_path = ''
+tumblr_picture_path = '/root/scrapy_tumblr/tumblr_picture/picture/full'
 tumblr_video_path = ''
 tumblr_target_group = u'豆瓣灌水@_@'
+tumblr_pic_media_id_path = './log/tumblr_pic_media_id'
 
 
 # 新人入群的欢迎语
