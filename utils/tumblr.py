@@ -19,7 +19,7 @@ class Tumblr(object):
             i += 1
             if i < 50:
                 pic_path = tumblr_picture_path + pic
-                self.target.send_image(path=pic_path,media_id=random.randrange(10000,20000))
+                self.target.send_image(pic_path)
                 time.sleep(random.randrange(3,5))
             else:
                 break
