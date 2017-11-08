@@ -38,6 +38,7 @@ class Messages(object):
         return group_code in msg.text.lower()
 
     # 根据关键字回复
+    @staticmethod
     def key_word_reply(msg):
         for reply, keywords in keyword_replies.items():
             for keyword in keywords:

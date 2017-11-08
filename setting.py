@@ -9,6 +9,9 @@ cache_path = './log/cache_bot.pkl'
 # puid 缓存位置
 puid_path = './log/puid_bot.pkl'
 
+# log 日志位置
+log_path= './log/bot.log'
+
 # Bot 对象初始化时的 console_qr 参数值
 console_qr = 2
 

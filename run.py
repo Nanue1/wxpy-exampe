@@ -33,7 +33,7 @@ def tuling_reply(msg):
     if not messages_utils.invite_friend(msg,bot):
         # 特定消息回复
         if not messages_utils.key_word_reply(msg):
-            time.sleep(random.uniform(0.5, 1))
+            time.sleep(random.uniform(0.2, 0.5))
             if messages_utils.supported_msg_type(msg, reply_unsupported=True):
                 tuling.do_reply(msg)
 
@@ -71,23 +71,23 @@ def reply_group(msg):
 
 
 #远程管理组执行命令
-# @bot.register(groups_utils.admin_group(), msg_types=TEXT, except_self=False)
-# def reply_admins(msg):
-#     """
-#     响应远程管理员
-#     内容解析方式优先级：
-#     1. 若为远程命令，则执行远程命令 (额外定义，一条命令对应一个函数)
-#     2. 若消息文本以 ! 开头，则作为 shell 命令执行
-#     3. 尝试作为 Python 代码执行 (可执行大部分 Python 代码)
-#     4. 若以上不满足或尝试失败，则作为普通聊天内容回复
-#     """
-#     try:
-#         # 上述的 1. 2. 3.
-#         commands_utils.server_mgmt(msg)
-#     except ValueError:
-#         # 上述的 4.
-#         if isinstance(msg.chat, User):
-#             if messages_utils.supported_msg_type(msg, reply_unsupported=True):
-#                 tuling.do_reply(msg)
+@bot.register(groups_utils.admin_group(), msg_types=TEXT, except_self=False)
+def reply_admins(msg):
+    """
+    响应远程管理员
+    内容解析方式优先级：
+    1. 若为远程命令，则执行远程命令 (额外定义，一条命令对应一个函数)
+    2. 若消息文本以 ! 开头，则作为 shell 命令执行
+    3. 尝试作为 Python 代码执行 (可执行大部分 Python 代码)
+    4. 若以上不满足或尝试失败，则作为普通聊天内容回复
+    """
+    try:
+        # 上述的 1. 2. 3.
+        commands_utils.server_mgmt(msg)
+    except ValueError:
+        # 上述的 4.
+        if isinstance(msg.chat, User):
+            if messages_utils.supported_msg_type(msg, reply_unsupported=True):
+                tuling.do_reply(msg)
 
 bot.join()

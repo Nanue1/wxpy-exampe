@@ -2,13 +2,17 @@
 # -*- coding: utf-8 -*-   
 # Created by manue1 on 2017/11/6
 import logging
+from setting import *
+
 
 
 class Logger(object):
+    def __init__(self):
+        self.init_logger()
 
-    def get_logger(level=logging.DEBUG, file='bot.log', mode='a'):
+    def init_logger(self,level=logging.DEBUG,file=log_path, mode='a'):
         log_formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
-        log_formatter_lite = logging.Formatter('%(name)s:%(levelname)s:%(message)s')
+        # log_formatter_lite = logging.Formatter('%(name)s:%(levelname)s:%(message)s')
 
         _logger = logging.getLogger()
 
@@ -28,18 +32,18 @@ class Logger(object):
         _logger.addHandler(console_hdlr)
 
         # 输出到远程管理员微信
-        wechat_hdlr = WeChatLoggingHandler(admins[0])
-        wechat_hdlr.setLevel(logging.WARNING)
-        wechat_hdlr.setFormatter(log_formatter_lite)
-        _logger.addHandler(wechat_hdlr)
+        # wechat_hdlr = WeChatLoggingHandler(admins[0])
+        # wechat_hdlr.setLevel(logging.WARNING)
+        # wechat_hdlr.setFormatter(log_formatter_lite)
+        # _logger.addHandler(wechat_hdlr)
 
         # 将未捕捉异常也发送到日志中
 
-        def except_hook(*args):
-            logger.critical('UNCAUGHT EXCEPTION:', exc_info=args)
-            _restart()
+        # def except_hook(*args):
+        #     logger.critical('UNCAUGHT EXCEPTION:', exc_info=args)
+        #     _restart()
 
-        sys.excepthook = except_hook
+        # sys.excepthook = except_hook
 
         for m in 'requests', 'urllib3':
             logging.getLogger(m).setLevel(logging.ERROR)
