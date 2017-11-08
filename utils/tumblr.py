@@ -6,7 +6,6 @@ import os
 from setting import *
 from groups import Groups
 import random
-
 import time
 
 
@@ -23,9 +22,9 @@ class Tumblr(object):
                 pic_path = tumblr_picture_path + pic
                 self.target.send(u'share pic %s ' % i)
                 time.sleep(random.randrange(1,3))
-                file_data = self.target.send_image(pic_path)
+                fd = self.target.send_image(path=pic_path,media=random.randrange(10000,20000))
                 with open(tumblr_pic_media_id_path,'a') as f:
-                    f.write(json.dumps(file_data + '\n'))
+                    f.write(fd.fileDir +'\t'+fd.mediaId + '\n')
                 # cmd = "rm -f %s" % pic_path
                 # os.system(cmd)
                 time.sleep(random.randrange(3,5))
