@@ -8,7 +8,7 @@ import time
 from wxpy import ensure_one
 
 from setting import *
-from utils.times import Time
+from logger import Logger
 
 
 class Groups(object):
@@ -20,28 +20,29 @@ class Groups(object):
     def __init__(self, bot):
         self.bot = bot
         self.groups = self.bot.groups(update=True)
-
+        self.logger = Logger(bot).init_logger()
         # 计算每个用户被邀请的次数
         self.invite_counter = Counter()
 
-    # 添加想有群内所有人为好友
+    # 添加所有群内所有人为好友
     def add_group_member(self):
-        for group in self.groups:
-            group.update_group(members_details=True)
-            for user in group.member:
-                if not user.is_friend:
-                    yield u'开始尝试添加群{group_name}内的{member_name}为好友'.format(
-                        group_name=group.name,
-                        member_name=user.name
-                    )
-                    time.sleep(random.randrange(5, 20))
-                    new_friend = user.add(verify_content=add_member_verify_content)
-                    new_name = Time().str_20171105() + '-' + str(random.randint(1, 1000))
-                    new_friend.set_remark_name(new_name)
-                    yield u'添加群{group_name}内的{member_name}为好友成功'.format(
-                        group_name=group.name,
-                        member_name=user.name
-                    )
+        try:
+            for group in self.groups:
+                group.update_group(members_details=True)
+                for user in group.members:
+                    if not user.is_friend:
+                        # yield u'开始尝试添加群{group_name}内的{member_name}为好友'.format(
+                        #     group_name=group.name,
+                        #     member_name=user.name
+                        # )
+                        time.sleep(random.randrange(120, 500))
+                        user.add(verify_content=add_member_verify_content)
+                        # yield u'添加群{group_name}内的{member_name}为好友成功'.format(
+                        #     group_name=group.name,
+                        #     member_name=user.name
+                        # )
+        except Exception as e:
+            self.logger(e)
 
     # 创建新群
     def create_group(self, users, topic):

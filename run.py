@@ -9,7 +9,7 @@ from wxpy.utils import start_new_thread
 
 from friends import Friends
 from groups import Groups
-from commands import  Commands
+from commands import Commands
 from login import Login
 from messages import Messages
 from setting import *
@@ -18,30 +18,32 @@ from logger import Logger
 
 # 初始化聊天机器人
 bot = Login().bot
-#初始化图灵机器人
+# 初始化图灵机器人
 tuling = Tuling(api_key=api_key)
 
+logger = Logger(bot).init_logger()
 friends_utils = Friends(bot)
 groups_utils = Groups(bot)
 messages_utils = Messages()
 commands_utils = Commands(bot)
-logger = Logger(bot).init_logger()
+
 
 # 机器人自动回复好友消息
 @bot.register(except_self=True)
 def tuling_reply(msg):
     # 好友回复口令发送邀请
-    if not messages_utils.invite_friend(msg,bot):
-        # 特定消息回复
-        if not messages_utils.key_word_reply(msg):
-            #只回复自动回复好友消息
-            if isinstance(msg.chat,User):
-                time.sleep(random.uniform(0.2, 0.5))
-                if messages_utils.supported_msg_type(msg, reply_unsupported=True):
+    if not messages_utils.invite_friend(msg, bot):
+        # 只自动回复好友消息
+        if isinstance(msg.chat, User):
+            if messages_utils.supported_msg_type(msg, reply_unsupported=True):
+                # 特定消息回复
+                if not messages_utils.key_word_reply(msg):
+                    time.sleep(random.uniform(0.2, 1))
                     tuling.do_reply(msg)
 
+
 # 手动添加好友后提示信息
-@bot.register(msg_types=NOTE,except_self=True)
+@bot.register(msg_types=NOTE, except_self=True)
 def manually_added(msg):
     if u'现在可以开始聊天了' in msg.text:
         # 延迟发送更容易引起注意
@@ -52,6 +54,7 @@ def manually_added(msg):
             else:
                 if msg.chat not in groups_utils.invite_counter:
                     return u'你好呀，{}，还记得咱们的入群口令吗？回复口令即可获取入群邀请。'.format(msg.chat.name)
+
 
 # 自动接受验证信息中包含 '关键字' 的好友请求
 @bot.register(msg_types=FRIENDS)
@@ -65,7 +68,8 @@ def auto_accept_friends(msg):
         # 邀请入群
         groups_utils.invite_group(new_friend)
 
-#  在群中回复被 @ 的消息
+
+# 在群中回复被 @ 的消息
 @bot.register(groups_utils.groups, TEXT)
 def reply_group(msg):
     if msg.chat in groups_utils.groups and msg.is_at:
@@ -73,8 +77,8 @@ def reply_group(msg):
             tuling.do_reply(msg)
 
 
-#远程管理组执行命令
-@bot.register(groups_utils.admin_group(), msg_types=TEXT,)
+# 远程管理组执行命令
+@bot.register(groups_utils.admin_group(), msg_types=TEXT)
 def reply_admins(msg):
     """
     响应远程管理员
@@ -92,6 +96,7 @@ def reply_admins(msg):
         if isinstance(msg.chat, User):
             if messages_utils.supported_msg_type(msg, reply_unsupported=True):
                 tuling.do_reply(msg)
+
 
 start_new_thread(commands_utils.heartbeat)
 

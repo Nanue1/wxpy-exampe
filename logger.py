@@ -7,15 +7,13 @@ from friends import Friends
 from setting import *
 
 
-
 class Logger(object):
-    def __init__(self,bot):
+    def __init__(self, bot):
 
         self.log_admin = Friends(bot).admin_friends()[0]
         self.init_logger()
 
-
-    def init_logger(self,level=logging.DEBUG,file=log_path, mode='a'):
+    def init_logger(self, level=logging.DEBUG, file=log_path, mode='a'):
         log_formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
         log_formatter_lite = logging.Formatter('%(name)s:%(levelname)s:%(message)s')
 

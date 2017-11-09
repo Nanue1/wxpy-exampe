@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # Created by manue1 on 2017/11/4
 import datetime
-import random
 import time
 import os
 import subprocess
@@ -10,12 +9,12 @@ import sys
 from pprint import pformat
 import psutil
 from wxpy import Group
+from wxpy.utils import start_new_thread
+
 from friends import Friends
 from groups import Groups
 from logger import Logger
-from utils.times import Time
 from utils.tumblr import Tumblr
-from  setting import *
 
 
 class Commands(object):
@@ -42,9 +41,9 @@ class Commands(object):
             'v': self._send_tumblr_video,
         }
 
-    #添加想有群内所有人为好友
+    # 添加所有群内所有人为好友
     def _add_group_member(self):
-        self.groups_utils.add_group_member()
+        start_new_thread(self.groups_utils.add_group_member())
 
     def _send_tumblr_picture(self):
         Tumblr(self.bot).send_tumblr_picture(),
@@ -67,9 +66,9 @@ class Commands(object):
         :param receiver: 接收者
         :param iterable: 可迭代对象
         """
+        print type(iterable)
         if isinstance(iterable, str):
             raise TypeError
-
         for msg in iterable:
             receiver.send(msg)
 
