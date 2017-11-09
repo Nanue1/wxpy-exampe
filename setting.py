@@ -56,7 +56,7 @@ tumblr_pic_media_id_path = './log/tumblr_pic_media_id'
 
 
 # 添加群成员 验证信息
-add_member_verify_content = u'你好,我是manue1 ^^ '
+add_member_verify_content = u'你好,可以让臣妾陪你聊一会吗^_^'
 # 新人入群的欢迎语
 welcome_text = u'''
                🎉 欢迎 @{} 的加入!
