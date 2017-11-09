@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # Created by manue1 on 2017/11/4
 import datetime
+import random
 import time
 import os
 import subprocess
@@ -12,7 +13,9 @@ from wxpy import Group
 from friends import Friends
 from groups import Groups
 from logger import Logger
+from utils.times import Time
 from utils.tumblr import Tumblr
+from  setting import *
 
 
 class Commands(object):
@@ -30,7 +33,8 @@ class Commands(object):
 
         # 远程命令 (单独发给机器人的消息)
         self.remote_orders = {
-            'g': self._update_groups,
+            'gu': self._update_groups,
+            'ga': self._add_group_member,
             's': self._status_text,
             'r': self._restart,
             'l': self._latency,
@@ -38,8 +42,13 @@ class Commands(object):
             'v': self._send_tumblr_video,
         }
 
+    #添加想有群内所有人为好友
+    def _add_group_member(self):
+        self.groups_utils.add_group_member()
+
     def _send_tumblr_picture(self):
         Tumblr(self.bot).send_tumblr_picture(),
+        yield 'tumblr pic send done.'
 
     def _send_tumblr_video(self):
         pass

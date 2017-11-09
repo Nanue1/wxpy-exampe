@@ -28,18 +28,20 @@ commands_utils = Commands(bot)
 logger = Logger(bot).init_logger()
 
 # 机器人自动回复好友消息
-@bot.register(except_self=False)
+@bot.register(except_self=True)
 def tuling_reply(msg):
     # 好友回复口令发送邀请
     if not messages_utils.invite_friend(msg,bot):
         # 特定消息回复
         if not messages_utils.key_word_reply(msg):
-            time.sleep(random.uniform(0.2, 0.5))
-            if messages_utils.supported_msg_type(msg, reply_unsupported=True):
-                tuling.do_reply(msg)
+            #只回复自动回复好友消息
+            if isinstance(msg.chat,User):
+                time.sleep(random.uniform(0.2, 0.5))
+                if messages_utils.supported_msg_type(msg, reply_unsupported=True):
+                    tuling.do_reply(msg)
 
 # 手动添加好友后提示信息
-@bot.register(msg_types=NOTE,except_self=False)
+@bot.register(msg_types=NOTE,except_self=True)
 def manually_added(msg):
     if u'现在可以开始聊天了' in msg.text:
         # 延迟发送更容易引起注意
@@ -72,7 +74,7 @@ def reply_group(msg):
 
 
 #远程管理组执行命令
-@bot.register(groups_utils.admin_group(), msg_types=TEXT, except_self=False)
+@bot.register(groups_utils.admin_group(), msg_types=TEXT,)
 def reply_admins(msg):
     """
     响应远程管理员

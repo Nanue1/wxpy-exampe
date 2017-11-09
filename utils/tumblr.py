@@ -21,5 +21,6 @@ class Tumblr(object):
                 pic_path = tumblr_picture_path + pic
                 self.target.send_image(pic_path)
                 time.sleep(random.randrange(3,5))
+                os.system('rm -f %s' % pic_path)
             else:
                 break
