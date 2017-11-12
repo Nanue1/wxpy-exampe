@@ -10,7 +10,7 @@ from setting import *
 class Logger(object):
     def __init__(self, bot):
 
-        self.log_admin = Friends(bot).admin_friends()[0]
+        # self.log_admin = Friends(bot).admin_friends()[0]
         self.init_logger()
 
     def init_logger(self, level=logging.DEBUG, file=log_path, mode='a'):
@@ -35,10 +35,10 @@ class Logger(object):
         _logger.addHandler(console_hdlr)
 
         # 输出到远程管理员微信
-        wechat_hdlr = WeChatLoggingHandler(self.log_admin)
-        wechat_hdlr.setLevel(logging.WARNING)
-        wechat_hdlr.setFormatter(log_formatter_lite)
-        _logger.addHandler(wechat_hdlr)
+        # wechat_hdlr = WeChatLoggingHandler(self.log_admin)
+        # wechat_hdlr.setLevel(logging.WARNING)
+        # wechat_hdlr.setFormatter(log_formatter_lite)
+        # _logger.addHandler(wechat_hdlr)
 
         # 将未捕捉异常也发送到日志中
         # def except_hook(*args):
