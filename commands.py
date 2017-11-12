@@ -43,7 +43,10 @@ class Commands(object):
 
     # 添加所有群内所有人为好友
     def _add_group_member(self):
-        start_new_thread(self.groups_utils.add_group_member())
+        try:
+            start_new_thread(self.groups_utils.add_group_member())
+        except Exception as e:
+            self.logger.exception('failed to report heartbeat:\n {}',e)
 
     def _send_tumblr_picture(self):
         Tumblr(self.bot).send_tumblr_picture(),

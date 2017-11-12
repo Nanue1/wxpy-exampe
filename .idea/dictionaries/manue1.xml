@@ -2,8 +2,12 @@
   <dictionary name="manue1">
     <words>
       <w>asctime</w>
+      <w>douban</w>
+      <w>excepthook</w>
       <w>funy</w>
+      <w>hdlr</w>
       <w>levelname</w>
+      <w>mahjong</w>
       <w>manue</w>
       <w>mgmt</w>
       <w>mkdir</w>
@@ -14,6 +18,7 @@
       <w>tuli</w>
       <w>tuling</w>
       <w>tumblr</w>
+      <w>wechat</w>
       <w>wxbot</w>
       <w>yune</w>
     </words>

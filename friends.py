@@ -5,7 +5,6 @@ import random
 import re
 
 import time
-import traceback
 
 from wxpy import ensure_one
 
@@ -41,6 +40,7 @@ class Friends(object):
     # 男女个数
     def sex_friends(self):
         boy_count = 0
+
         girl_count = 0
         for friends in self.friends:
             if friends.sex == 1:
@@ -77,8 +77,8 @@ class Friends(object):
                     print friend.remark_name + '\t' + friend.nick_name
                 else:
                     pass
-            except:
-                traceback.print_exc()
+            except Exception as e:
+                raise e
                 continue
 
     # 获取管理员的puids
@@ -94,3 +94,7 @@ class Friends(object):
         for admin_name in admin_mangers_name:
             admin_friends.append(self._search_friend(admin_name))
         return admin_friends
+
+    #判断用户是否还是好友
+    def is_friend_yn(self):
+        pass

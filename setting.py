@@ -10,32 +10,38 @@ cache_path = './log/cache_bot.pkl'
 puid_path = './log/puid_bot.pkl'
 
 # log 日志位置
-log_path= './log/bot.log'
+log_path = './log/bot.log'
 
 # Bot 对象初始化时的 console_qr 参数值
 console_qr = 2
 
-# 入群口令
-group_code = u'嘿哈'
-
 # 添加好友验证信息关键字
 auto_accept_msg_keyword = u'嘿哈'
 
-
 # 需管理的微信群
 # 可为多个，机器人必须为群主，否则无法执行相应操作
-groups_name = [u'豆瓣灌水@_@', u'豆瓣灌水=_=']
+douban_groups_name = [u'豆瓣灌水@_@', u'豆瓣灌水=_=']
+mahjong_groups_name = [u'欢乐麻将@_@', u'欢乐麻将=_=']
+king_groups_name = [u'稳住别浪@_@', u'稳住别浪=_=']
+werewolf_groups_name = [u'天黑请闭眼@_@', u'天亮请睁眼=_=']
+sex_groups_name = [u'Nude_chat@_@', u'Nude_chat=_=']
 
+# 入群口令
+group_codes = {u'嘿哈': douban_groups_name,
+               u'麻将': mahjong_groups_name,
+               u'稳住': king_groups_name,
+               u'狼人': werewolf_groups_name,
+               u'nude': sex_groups_name}
 
 # 自动回答关键词
 keyword_replies = {
     u'还记得我们的入群口令吗?': (
-        u'豆瓣', u'发车', u'上车',u'进群',u'入群'
+        u'豆瓣', u'发车', u'上车', u'进群', u'入群'
     ),
 }
 
 # 机器人 api
-api_key='61eea024ed154d8f9d8a33e98547057a'
+api_key = '61eea024ed154d8f9d8a33e98547057a'
 
 # 最大邀请测试
 invite_times_max = 2
@@ -43,17 +49,16 @@ invite_times_max = 2
 # 管理员，可为多个，用于执行管理
 # 首个管理员为"系统管理员"，可接收异常日志和执行服务端操作
 # 其他管理员仅执行微信群管理
-admin_mangers_name = [u'Funy',u'Yune1', u'manue1']
+admin_mangers_name = [u'Funy', u'Yune1', u'manue1']
 
 # 管理群
 admin_group_name = u'开发测试'
 
-#tumblr data path
+# tumblr data path
 tumblr_picture_path = '/root/scrapy_tumblr/tumblr_picture/picture/full/'
 tumblr_video_path = ''
 tumblr_target_group = u'豆瓣灌水@_@'
 tumblr_pic_media_id_path = './log/tumblr_pic_media_id'
-
 
 # 添加群成员 验证信息
 add_member_verify_content = u'你好,可以让臣妾陪你聊一会吗^_^'

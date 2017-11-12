@@ -31,10 +31,13 @@ class Messages(object):
         elif reply_unsupported and (msg.type not in ignored):
             msg.reply(fallback_replies.get(msg.type,u'🐒'))
 
-    # 验证入群口令
+    # 验证入群口令返回对应分类群组
     @staticmethod
-    def valid_code(msg):
-        return group_code in msg.text.lower()
+    def valid_code_return_groups(msg):
+        for group_code in group_codes.keys():
+            if group_code in msg.text.lower():
+                return group_codes[group_code]
+        return False
 
     # 根据关键字回复
     @staticmethod
@@ -48,7 +51,8 @@ class Messages(object):
     # 好友输入口令 发送邀请
     def invite_friend(self,msg,bot):
         if self.supported_msg_type(msg):
-            if self.valid_code(msg):
-                Groups(bot).invite_group(msg.sender)
+            return_groups = self.valid_code_return_groups(msg)
+            if return_groups:
+                Groups(bot).invite_group(msg.sender,return_groups)
                 return True
 

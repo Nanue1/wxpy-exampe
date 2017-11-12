@@ -59,14 +59,15 @@ def manually_added(msg):
 # 自动接受验证信息中包含 '关键字' 的好友请求
 @bot.register(msg_types=FRIENDS)
 def auto_accept_friends(msg):
-    # 判断好友请求中的验证文本
-    if auto_accept_msg_keyword in msg.text.lower():
+    # 判断好友请求中的验证文本,如果正确返回群组
+    return_groups = messages_utils.valid_code_return_groups(msg)
+    if return_groups:
         # 接受好友 (msg.card 为该请求的用户对象)
         new_friend = msg.card.accept()
         # 添加时间备注
         new_friend.set_remark_name(Time().str_20171105() + '-' + new_friend.nick_name)
         # 邀请入群
-        groups_utils.invite_group(new_friend)
+        groups_utils.invite_group(new_friend,return_groups)
 
 
 # 在群中回复被 @ 的消息

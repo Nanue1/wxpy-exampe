@@ -30,17 +30,18 @@ class Groups(object):
             for group in self.groups:
                 group.update_group(members_details=True)
                 for user in group.members:
-                    if not user.is_friend:
-                        # yield u'开始尝试添加群{group_name}内的{member_name}为好友'.format(
-                        #     group_name=group.name,
-                        #     member_name=user.name
-                        # )
-                        time.sleep(random.randrange(120, 500))
-                        user.add(verify_content=add_member_verify_content)
-                        # yield u'添加群{group_name}内的{member_name}为好友成功'.format(
-                        #     group_name=group.name,
-                        #     member_name=user.name
-                        # )
+                    if not user == group.owner:
+                        if not user.is_friend:
+                            # yield u'开始尝试添加群{group_name}内的{member_name}为好友'.format(
+                            #     group_name=group.name,
+                            #     member_name=user.name
+                            # )
+                            time.sleep(random.randrange(120, 500))
+                            user.add(verify_content=add_member_verify_content)
+                            # yield u'添加群{group_name}内的{member_name}为好友成功'.format(
+                            #     group_name=group.name,
+                            #     member_name=user.name
+                            # )
         except Exception as e:
             self.logger(e)
 
@@ -69,11 +70,10 @@ class Groups(object):
     #     return groups
 
     # 获取user groups
-    def user_groups(self):
+    def user_groups(self,return_groups):
         groups = []
-        for group_name in groups_name:
+        for group_name in return_groups:
             groups.append(self.search_group(group_name))
-
         return groups
 
     # 获取管理群
@@ -81,8 +81,8 @@ class Groups(object):
         return self.search_group(admin_group_name)
 
     # 自动选择未满的群
-    def _min_group(self):
-        groups = self.user_groups()
+    def _min_group(self,return_groups):
+        groups = self.user_groups(return_groups)
         groups.sort(key=len, reverse=True)
         for _group in groups:
             if len(_group) < 30:
@@ -91,8 +91,7 @@ class Groups(object):
             return groups[-1]
 
     # 邀请入群
-    def invite_group(self, user):
-        groups = self.user_groups()
+    def invite_group(self, user,groups):
         joined = list()
         for group in groups:
             if user in group:
@@ -101,7 +100,7 @@ class Groups(object):
             joined_nick_names = '\n'.join(map(lambda x: x.nick_name, joined))
             user.send(u'你已加入了\n{}'.format(joined_nick_names))
         else:
-            group = self._min_group()
+            group = self._min_group(groups)
             user.send(u'验证通过 [嘿哈]')
             group.add_members(user, use_invitation=True)
             if self.invite_counter.get(user, 0) < invite_times_max:
