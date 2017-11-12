@@ -89,11 +89,11 @@ class Friends(object):
         return admin_puids_list
 
     #获取管理员
-    def admin_friends(self):
-        admin_friends= []
-        for admin_name in admin_mangers_name:
-            admin_friends.append(self._search_friend(admin_name))
-        return admin_friends
+    def specific_friends(self,specific_users_name):
+        specific_friends= []
+        for user_name in specific_users_name:
+            specific_friends.append(self._search_friend(user_name))
+        return specific_friends
 
     #判断用户是否还是好友
     def is_friend_yn(self):

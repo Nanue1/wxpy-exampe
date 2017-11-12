@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-   
 # Created by manue1 on 2017/11/4
-import random
 from collections import Counter
 
-import time
-from wxpy import ensure_one
 
 from setting import *
+from friends import *
 from logger import Logger
 
 
@@ -21,8 +19,25 @@ class Groups(object):
         self.bot = bot
         self.groups = self.bot.groups(update=True)
         self.logger = Logger(bot).init_logger()
+        self.ct_groups_users= Friends(bot).specific_friends(users_name)
+        #初始化管理的群组
+        self._if_not_group_create()
         # 计算每个用户被邀请的次数
         self.invite_counter = Counter()
+
+    # 初始化群组，如果不存在就创建
+    def _if_not_group_create(self):
+        for group_name in all_groups_name:
+            if not self.search_group(group_name):
+                time.sleep(random.randrange(5,10))
+                new_group =self.create_group(self.ct_groups_users,group_name)
+                new_group.send('create group %s success' % group_name)
+            # elif not self.search_group(group_name).is_owner == self.bot.self:
+            #         time.sleep(random.randrange(5,10))
+            #         new_group =self.create_group(self.ct_groups_users,group_name)
+            #         new_group.send('create group %s success' % group_name)
+            # else:
+            #     pass
 
     # 添加所有群内所有人为好友
     def add_group_member(self):
@@ -52,7 +67,11 @@ class Groups(object):
 
     # 关键字查找groups
     def search_group(self, key_word):
-        return ensure_one(self.groups.search(keywords=key_word))
+        kgroup = self.groups.search(keywords=key_word)
+        if kgroup:
+            return kgroup[0]
+        else:
+            return False
 
     # 获取管理群组的quid
     # def _group_puids(self):
@@ -70,7 +89,7 @@ class Groups(object):
     #     return groups
 
     # 获取user groups
-    def user_groups(self,return_groups):
+    def user_groups(self, return_groups):
         groups = []
         for group_name in return_groups:
             groups.append(self.search_group(group_name))
@@ -81,9 +100,8 @@ class Groups(object):
         return self.search_group(admin_group_name)
 
     # 自动选择未满的群
-    def _min_group(self,return_groups):
-        groups = self.user_groups(return_groups)
-        groups.sort(key=len, reverse=True)
+    @staticmethod
+    def _min_group(groups):
         for _group in groups:
             if len(_group) < 30:
                 return _group
@@ -91,7 +109,8 @@ class Groups(object):
             return groups[-1]
 
     # 邀请入群
-    def invite_group(self, user,groups):
+    def invite_group(self, user, return_groups_name):
+        groups = self.user_groups(return_groups_name)
         joined = list()
         for group in groups:
             if user in group:

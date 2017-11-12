@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # Created by manue1 on 2017/11/4
 import datetime
+import random
 import time
 import os
 import subprocess
@@ -15,6 +16,7 @@ from friends import Friends
 from groups import Groups
 from logger import Logger
 from utils.tumblr import Tumblr
+from setting import *
 
 
 class Commands(object):
@@ -60,7 +62,7 @@ class Commands(object):
         判断 msg 的发送者是否为管理员
         """
         from_user = msg.member if isinstance(msg.chat, Group) else msg.sender
-        return from_user in self.friends_utils.admin_friends()
+        return from_user in self.friends_utils.specific_friends(admin_mangers_name)
 
     @staticmethod
     def _send_iter(receiver, iterable):
@@ -149,7 +151,7 @@ class Commands(object):
 
     def heartbeat(self):
         while self.bot.alive:
-            time.sleep(600)
+            time.sleep(random.randrange(800,1600))
             # noinspection PyBroadException
             try:
                 self._send_iter(self.groups_utils.admin_group(), self._status_text())

@@ -51,8 +51,8 @@ class Messages(object):
     # 好友输入口令 发送邀请
     def invite_friend(self,msg,bot):
         if self.supported_msg_type(msg):
-            return_groups = self.valid_code_return_groups(msg)
-            if return_groups:
-                Groups(bot).invite_group(msg.sender,return_groups)
+            return_groups_name = self.valid_code_return_groups(msg)
+            if return_groups_name:
+                Groups(bot).invite_group(msg.sender,return_groups_name)
                 return True
 
